@@ -1,0 +1,4409 @@
+[
+  {
+    "title": "CP",
+    "description": "International Conference on Principles and Practice of Constraint Programming",
+    "sub": "SE",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "cp",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "cp27",
+        "link": "https://cp2026.a4cp.org/",
+        "date": "TBD, 2027",
+        "place": "Lisbon, Portugal",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "ESEM",
+    "description": "International Symposium on Empirical Software Engineering and Measurement",
+    "sub": "SE",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "esem",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "esem27",
+        "link": "https://conf.researchr.org/home/eseiw-2026",
+        "date": "TBD, 2027",
+        "place": "München, Germany",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "ASE",
+    "description": "International Conference on Automated Software Engineering",
+    "sub": "SE",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "kbse",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "ase27",
+        "link": "https://conf.researchr.org/home/ase-2026",
+        "date": "TBD, 2027",
+        "place": "Munich, Germany",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "ICWS",
+    "description": "IEEE International Conference on Web Services (Research Track)",
+    "sub": "SE",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "icws",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "icws27",
+        "link": "https://services.conferences.computer.org/2026/icws-2026/",
+        "date": "TBD, 2027",
+        "place": "Sydney, Australia",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "ICSOC",
+    "description": "International Conference on Service Oriented Computing",
+    "sub": "SE",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N"
+    },
+    "dblp": "icsoc",
+    "confs": [
+      {
+        "year": "2026",
+        "id": "icsoc26",
+        "link": "https://icsoc2025.hit.edu.cn/main.htm",
+        "date": "TBD, 2026",
+        "place": "Shenzhen, China",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "HotOS",
+    "description": "USENIX Workshop on Hot Topics in Operating Systems",
+    "sub": "SE",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "hotos",
+    "confs": [
+      {
+        "year": "2026",
+        "id": "hotos26",
+        "link": "https://sigops.org/s/conferences/hotos/2025/",
+        "date": "TBD, 2026",
+        "place": "Banff, Alberta, Canada",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "OSDI",
+    "description": "USENIX Symposium on Operating Systems Design and Implementation",
+    "sub": "SE",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "osdi",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "osdi27",
+        "link": "https://www.usenix.org/conference/osdi26",
+        "date": "TBD, 2027",
+        "place": "Seattle, WA, USA",
+        "timezone": "UTC",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "ICPC",
+    "description": "IEEE International Conference on Program Comprehension",
+    "sub": "SE",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "icpc",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "icpc27",
+        "link": "https://conf.researchr.org/home/icpc-2026",
+        "date": "TBD, 2027",
+        "place": "Rio de Janeiro, Brazil",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "SOSP",
+    "description": "ACM Symposium on Operating Systems Principles",
+    "sub": "SE",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "sosp",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "sosp27",
+        "link": "https://sigops.org/s/conferences/sosp/2026/index.html",
+        "date": "TBD, 2027",
+        "place": "Clarion Congress Hotel Prague, Prague, Czechia",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "FM",
+    "description": "International Symposium on Formal Methods",
+    "sub": "SE",
+    "rank": {
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "fm",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "fm27",
+        "link": "https://conf.researchr.org/home/fm-2026",
+        "date": "TBD, 2027",
+        "place": "Tokyo, Japan",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "FSE",
+    "description": "ACM International Conference on the Foundations of Software Engineering",
+    "sub": "SE",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "sigsoft",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "fse27",
+        "link": "https://conf.researchr.org/home/fse-2027",
+        "timeline": [
+          {
+            "deadline": "2026-10-02 23:59:59"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "July 12-16, 2027",
+        "place": "Shenzhen, China"
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "CAiSE",
+    "description": "International Conference on Advanced Information Systems Engineering",
+    "sub": "SE",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "caise",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "caise27",
+        "link": "https://caise26.polimi.it/",
+        "date": "TBD, 2027",
+        "place": "Verona, Italy",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "RE",
+    "description": "IEEE International Requirements Engineering Conference",
+    "sub": "SE",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N"
+    },
+    "dblp": "re",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "re27",
+        "link": "https://conf.researchr.org/home/RE-2026",
+        "date": "TBD, 2027",
+        "place": "Montreal, Canada",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "ICST",
+    "description": "IEEE International Conference on Software Testing, Verification and Validation",
+    "sub": "SE",
+    "rank": {
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "icst",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "icst27",
+        "link": "https://conf.researchr.org/home/icst-2026",
+        "date": "TBD, 2027",
+        "place": "Daejeon, South Korea",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "ISSTA",
+    "description": "ACM SIGSOFT International Symposium on Software Testing and Analysis",
+    "sub": "SE",
+    "rank": {
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A"
+    },
+    "dblp": "issta",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "issta27",
+        "link": "https://conf.researchr.org/home/issta-2026",
+        "date": "TBD, 2027",
+        "place": "Oakland, California, United States",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "ECOOP",
+    "description": "European Conference on Object-Oriented Programming",
+    "sub": "SE",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "ecoop",
+    "confs": [
+      {
+        "year": "2026",
+        "id": "ecoop26",
+        "link": "https://2025.ecoop.org/",
+        "date": "TBD, 2026",
+        "place": "Bergen, Norway",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "PLDI",
+    "description": "ACM SIGPLAN Conference on Programming Language Design & Implementation",
+    "sub": "SE",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "pldi",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "pldi27",
+        "link": "https://pldi26.sigplan.org/",
+        "date": "TBD, 2027",
+        "place": "Boulder, Colorado, United States",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "ICFP",
+    "description": "International Conference on Function Programming",
+    "sub": "SE",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "icfp",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "icfp27",
+        "link": "https://icfp26.sigplan.org/",
+        "date": "TBD, 2027",
+        "place": "Indiana University Indianapolis, United States",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "EASE",
+    "description": "International Conference on Evaluation and Assessment in Software Engineering",
+    "sub": "SE",
+    "rank": {
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "ease",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "ease27",
+        "link": "https://conf.researchr.org/home/ease-2026",
+        "date": "TBD, 2027",
+        "place": "Glasgow, United Kingdom",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "ICSE",
+    "description": "International Conference on Software Engineering",
+    "sub": "SE",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "icse",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "icse27",
+        "link": "https://conf.researchr.org/home/icse-2027",
+        "timeline": [
+          {
+            "abstract_deadline": "2026-06-23 23:59:59",
+            "deadline": "2026-06-30 23:59:59",
+            "comment": "Single Submission Cycle Deadline"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "April 25-May 01, 2027",
+        "place": "Dublin, Ireland"
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "ICSME",
+    "description": "International Conference on Software Maintenance and Evolution",
+    "sub": "SE",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "icsm",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "icsme27",
+        "link": "https://conf.researchr.org/home/icsme-2026",
+        "date": "TBD, 2027",
+        "place": "Benevento, Italy",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "POPL",
+    "description": "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages",
+    "sub": "SE",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "popl",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "popl27",
+        "link": "https://popl27.sigplan.org/",
+        "timeline": [
+          {
+            "deadline": "2026-07-09 23:59:59",
+            "comment": "Submission Deadline"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "January 10-16, 2027",
+        "place": "Mexico City"
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "SANER",
+    "description": "IEEE International Conference on Software Analysis, Evolution and Reengineering",
+    "sub": "SE",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "wcre",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "saner2027",
+        "link": "https://conf.researchr.org/home/saner-2027",
+        "timeline": [
+          {
+            "abstract_deadline": "TBD",
+            "deadline": "TBD",
+            "comment": "Research Track Paper submission deadline"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "March 9-12, 2027",
+        "place": "Richmond, Virginia, United States"
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "MSR",
+    "description": "International Conference on Mining Software Repositories",
+    "sub": "SE",
+    "rank": {
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "msr",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "msr27",
+        "link": "https://2026.msrconf.org/",
+        "date": "TBD, 2027",
+        "place": "Rio de Janeiro, Brazil",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "ISSRE",
+    "description": "International Symposium on Software Reliability Engineering",
+    "sub": "SE",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "issre",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "issre27",
+        "link": "https://cyprusconferences.org/issre2026/",
+        "date": "TBD, 2027",
+        "place": "Limassol, Cyprus",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "OOPSLA",
+    "description": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+    "sub": "SE",
+    "rank": {
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A"
+    },
+    "dblp": "oopsla",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "oopsla27",
+        "link": "https://conf.researchr.org/track/splash-2026/oopsla-2026",
+        "date": "TBD, 2027",
+        "place": "Oakland, California, United States",
+        "timezone": "UTC-12",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SE"
+  },
+  {
+    "title": "ASIACRYPT",
+    "description": "International Conference on the Theory and Application of Cryptology and Information Security",
+    "sub": "SC",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A"
+    },
+    "dblp": "asiacrypt",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "asiacrypt27",
+        "link": "https://asiacrypt.iacr.org/2026/",
+        "date": "TBD, 2027",
+        "place": "Hong Kong, China",
+        "timezone": "UTC",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SC"
+  },
+  {
+    "title": "NDSS",
+    "description": "Network and Distributed System Security (NDSS) Symposium",
+    "sub": "SC",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "ndss",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "ndss27",
+        "link": "https://www.ndss-symposium.org/ndss2027/",
+        "timeline": [
+          {
+            "deadline": "2026-05-06 23:59:59",
+            "comment": "Summer"
+          },
+          {
+            "deadline": "2026-08-19 23:59:59",
+            "comment": "Fall"
+          }
+        ],
+        "timezone": "UTC-12",
+        "date": "March 22 - March 26, 2027",
+        "place": "Seoul, Republic of Korea"
+      }
+    ],
+    "category": "SC"
+  },
+  {
+    "title": "EUROCRYPT",
+    "description": "European Cryptology Conference",
+    "sub": "SC",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "eurocrypt",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "eurocrypt27",
+        "link": "https://eurocrypt.iacr.org/2026/",
+        "date": "TBD, 2027",
+        "place": "Rome, Italy",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SC"
+  },
+  {
+    "title": "CSFW",
+    "description": "IEEE Computer Security Foundations Symposium",
+    "sub": "SC",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "csfw",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "csfw27",
+        "link": "https://csf2026.ieee-security.org/",
+        "date": "TBD, 2027",
+        "place": "Lisbon, Portugal",
+        "timezone": "UTC-12",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SC"
+  },
+  {
+    "title": "PETS",
+    "description": "Privacy Enhancing Technologies Symposium",
+    "sub": "SC",
+    "rank": {
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "pet",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "pets27",
+        "link": "https://petsymposium.org/cfp27.php",
+        "timeline": [
+          {
+            "deadline": "2026-05-31 23:59:59",
+            "comment": "Issue 1 Paper Submission Deadline"
+          },
+          {
+            "deadline": "2026-08-31 23:59:59",
+            "comment": "Issue 2 Paper Submission Deadline"
+          },
+          {
+            "deadline": "2026-11-30 23:59:59",
+            "comment": "Issue 3 Paper Submission Deadline"
+          },
+          {
+            "deadline": "2027-02-28 23:59:59",
+            "comment": "Issue 4 Paper Submission Deadline"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "TBD",
+        "place": "TBA (Europe)"
+      }
+    ],
+    "category": "SC"
+  },
+  {
+    "title": "TCC",
+    "description": "Theory of Cryptography Conference",
+    "sub": "SC",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "tcc",
+    "confs": [
+      {
+        "year": "2026",
+        "id": "tcc26",
+        "link": "https://tcc.iacr.org/2025/",
+        "date": "TBD, 2026",
+        "place": "Aarhus, Denmark",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SC"
+  },
+  {
+    "title": "AsiaCCS",
+    "description": "Asia Conference on Computer and Communications Security",
+    "sub": "SC",
+    "rank": {
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "ccs",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "asiaccs27",
+        "link": "https://asiaccs2027.cityu.edu.mo/index.html",
+        "timeline": [
+          {
+            "deadline": "2026-08-21 23:59:59",
+            "comment": "1st round Deadline"
+          },
+          {
+            "deadline": "2026-12-11 23:59:59",
+            "comment": "2nd round Deadline"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "July 12-16, 2027",
+        "place": "Macau, China"
+      }
+    ],
+    "category": "SC"
+  },
+  {
+    "title": "CHES",
+    "description": "International Conference on Cryptographic Hardware and Embedded Systems",
+    "sub": "SC",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A"
+    },
+    "dblp": "ches",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "ches27",
+        "link": "https://ches.iacr.org/2026/",
+        "date": "TBD, 2027",
+        "place": "Türkiye",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SC"
+  },
+  {
+    "title": "ESORICS",
+    "description": "European Symposium on Research in Computer Security",
+    "sub": "SC",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "esorics",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "esorics27",
+        "link": "https://sites.google.com/di.uniroma1.it/esorics2026/home",
+        "date": "TBD, 2027",
+        "place": "Rome, Italy",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SC"
+  },
+  {
+    "title": "FC",
+    "description": "Financial Cryptography and Data Security",
+    "sub": "SC",
+    "rank": {
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "fc",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "fc27",
+        "link": "https://fc26.ifca.ai/",
+        "date": "TBD, 2027",
+        "place": "St. Kitts",
+        "timezone": "UTC-12",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SC"
+  },
+  {
+    "title": "S&P",
+    "description": "IEEE Symposium on Security and Privacy",
+    "sub": "SC",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "sp",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "sp27",
+        "link": "https://sp2027.ieee-security.org/index.html",
+        "timeline": [
+          {
+            "abstract_deadline": "2026-06-04 23:59:59",
+            "deadline": "2026-06-11 23:59:59",
+            "comment": "First Paper submission deadline"
+          },
+          {
+            "abstract_deadline": "2026-11-10 23:59:59",
+            "deadline": "2026-11-17 23:59:59",
+            "comment": "Second Paper submission deadline"
+          }
+        ],
+        "timezone": "UTC-12",
+        "date": "TBD",
+        "place": "MONTREAL, CANADA"
+      }
+    ],
+    "category": "SC"
+  },
+  {
+    "title": "USENIX Security",
+    "description": "USENIX Security Symposium",
+    "sub": "SC",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "uss",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "uss27",
+        "link": "https://www.usenix.org/conference/usenixsecurity27",
+        "timeline": [
+          {
+            "abstract_deadline": "2026-08-18 23:59:59",
+            "deadline": "2026-08-25 23:59:59",
+            "comment": "Cycle 1 Deadline"
+          },
+          {
+            "abstract_deadline": "2027-01-19 23:59:59",
+            "deadline": "2027-01-26 23:59:59",
+            "comment": "Cycle 2 Deadline"
+          }
+        ],
+        "timezone": "UTC-12",
+        "date": "August 11-13, 2027",
+        "place": "Denver, CO, USA"
+      }
+    ],
+    "category": "SC"
+  },
+  {
+    "title": "CCS",
+    "description": "ACM Conference on Computer and Communications Security",
+    "sub": "SC",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "ccs",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "ccs27",
+        "link": "https://www.sigsac.org/ccs/CCS2026/",
+        "date": "TBD, 2027",
+        "place": "World Forum, Hague, Netherlands",
+        "timezone": "UTC-12",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SC"
+  },
+  {
+    "title": "DSN",
+    "description": "International Conference on Dependable Systems and Networks",
+    "sub": "SC",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "dsn",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "dsn27",
+        "link": "https://dsn2026.github.io",
+        "date": "TBD, 2027",
+        "place": "Charlotte, USA",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SC"
+  },
+  {
+    "title": "ACSAC",
+    "description": "Annual Computer Security Applications Conference",
+    "sub": "SC",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "acsac",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "acsac27",
+        "link": "https://www.acsac.org/",
+        "date": "TBD, 2027",
+        "place": "Los Angeles, California, USA",
+        "timezone": "UTC-12",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SC"
+  },
+  {
+    "title": "CRYPTO",
+    "description": "International Cryptology Conference",
+    "sub": "SC",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "crypto",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "crypto27",
+        "link": "https://crypto.iacr.org/2026/",
+        "date": "TBD, 2027",
+        "place": "Santa Barbara, USA",
+        "timezone": "UTC-12",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SC"
+  },
+  {
+    "title": "RAID",
+    "description": "International Symposium on Recent Advances in Intrusion Detection",
+    "sub": "SC",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "raid",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "raid27",
+        "link": "https://raid2026.org",
+        "date": "TBD, 2027",
+        "place": "Lancaster, UK",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "SC"
+  },
+  {
+    "title": "HPDC",
+    "description": "ACM Symposium on High-Performance Parallel and Distributed Computing",
+    "sub": "DS",
+    "rank": {
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "hpdc",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "hpdc27",
+        "link": "https://hpdc.sci.utah.edu/2026/",
+        "date": "TBD, 2027",
+        "place": "Cleveland, OH, USA",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "DS"
+  },
+  {
+    "title": "PPoPP",
+    "description": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+    "sub": "DS",
+    "rank": {
+      "ccf": "A",
+      "core": "B",
+      "thcpl": "A"
+    },
+    "dblp": "ppopp",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "ppopp27",
+        "link": "https://ppopp26.sigplan.org/",
+        "date": "TBD, 2027",
+        "place": "Sydney, Australia",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "DS"
+  },
+  {
+    "title": "FAST",
+    "description": "USENIX Conference on File and Storage Technologies",
+    "sub": "DS",
+    "rank": {
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A"
+    },
+    "dblp": "fast",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "fast27",
+        "link": "https://www.usenix.org/conference/fast27",
+        "timeline": [
+          {
+            "deadline": "2026-03-17 23:59:00",
+            "comment": "Spring deadline"
+          },
+          {
+            "deadline": "2026-09-15 23:59:00",
+            "comment": "Fall deadline"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "FEBRUARY 23-25, 2027",
+        "place": "Renton, WA, USA"
+      }
+    ],
+    "category": "DS"
+  },
+  {
+    "title": "DAC",
+    "description": "Design Automation Conference",
+    "sub": "DS",
+    "rank": {
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A"
+    },
+    "dblp": "dac",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "dac27",
+        "link": "https://dac.com/2026/call-for-contributions",
+        "date": "TBD, 2027",
+        "place": "Long Beach, CA",
+        "timezone": "UTC-8",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "DS"
+  },
+  {
+    "title": "ICCAD",
+    "description": "IEEE/ACM International Conference on Computer-Aided Design",
+    "sub": "DS",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "iccad",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "iccad27",
+        "link": "https://iccad.com/2026",
+        "date": "TBD, 2027",
+        "place": "San Jose, California, USA",
+        "timezone": "UTC-12",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "DS"
+  },
+  {
+    "title": "SIGOPS ATC",
+    "description": "ACM SIGOPS Annual Technical Conference",
+    "sub": "DS",
+    "rank": {
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A"
+    },
+    "dblp": "usenix",
+    "confs": [
+      {
+        "year": 2026,
+        "id": "atc2026",
+        "link": "https://sigops.org/s/conferences/atc/2026/index.html",
+        "timeline": [
+          {
+            "deadline": "2026-06-10 23:59:59"
+          }
+        ],
+        "timezone": "UTC+0",
+        "date": "November 15-18, 2026",
+        "place": "Hyatt Hotel, Shatin, Hong Kong, China"
+      }
+    ],
+    "category": "DS"
+  },
+  {
+    "title": "MICRO",
+    "description": "IEEE/ACM International Symposium on Microarchitecture",
+    "sub": "DS",
+    "rank": {
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A"
+    },
+    "dblp": "micro",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "micro27",
+        "link": "https://microarch.org/micro59/",
+        "date": "TBD, 2027",
+        "place": "Athens, Greece",
+        "timezone": "UTC-4",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "DS"
+  },
+  {
+    "title": "IPDPS",
+    "description": "IEEE International Parallel and Distributed Processing Symposium",
+    "sub": "DS",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "ipps",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "ipdps27",
+        "link": "https://www.ipdps.org/",
+        "date": "TBD, 2027",
+        "place": "New Orleans, USA",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "DS"
+  },
+  {
+    "title": "ICS",
+    "description": "ACM International Conference on Supercomputing",
+    "sub": "DS",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "ics",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "ics27",
+        "link": "https://dipsa-qub.github.io/ICS2026-webpage/",
+        "date": "TBD, 2027",
+        "place": "Belfast, Northern Ireland, United Kingdom",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "DS"
+  },
+  {
+    "title": "HPCA",
+    "description": "IEEE International Symposium on High-Performance Computer Architecture",
+    "sub": "DS",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "hpca",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "hpca27",
+        "link": "https://hpca-conf.org/2026/",
+        "date": "TBD, 2027",
+        "place": "Sydney, NSW, Australia",
+        "timezone": "UTC",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "DS"
+  },
+  {
+    "title": "RTAS",
+    "description": "IEEE Real-Time and Embedded Technology and Applications Symposium",
+    "sub": "DS",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "rtas",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "rtas27",
+        "link": "https://2026.rtas.org/",
+        "date": "TBD, 2027",
+        "place": "Saint Malo, France",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "DS"
+  },
+  {
+    "title": "ITC",
+    "description": "International Test Conference",
+    "sub": "DS",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N"
+    },
+    "dblp": "itc",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "itc27",
+        "link": "https://www.itctestweek.org/",
+        "date": "TBD, 2027",
+        "place": "Grand Hyatt San Antonio Riverwalk, TX, USA",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "DS"
+  },
+  {
+    "title": "SC",
+    "description": "International Conference for High Performance Computing, Networking, Storage, and Analysis",
+    "sub": "DS",
+    "rank": {
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A"
+    },
+    "dblp": "sc",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "sc27",
+        "link": "https://sc26.supercomputing.org/",
+        "date": "TBD, 2027",
+        "place": "McCormick Place, Chicago, Illinois, USA",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "DS"
+  },
+  {
+    "title": "EuroSys",
+    "description": "European Conference on Computer Systems",
+    "sub": "DS",
+    "rank": {
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A"
+    },
+    "dblp": "eurosys",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "eurosys2027",
+        "link": "https://2027.eurosys.org/",
+        "timeline": [
+          {
+            "abstract_deadline": "2026-05-07 23:59:59",
+            "deadline": "2026-05-14 23:59:59",
+            "comment": "Spring Submission Deadline"
+          },
+          {
+            "abstract_deadline": "2026-09-17 23:59:59",
+            "deadline": "2026-09-24 23:59:59",
+            "comment": "Fall Submission Deadline"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "April 19-24, 2027",
+        "place": "Rabat, Morocco"
+      }
+    ],
+    "category": "DS"
+  },
+  {
+    "title": "ISCA",
+    "description": "International Symposium on Computer Architecture",
+    "sub": "DS",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "isca",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "isca27",
+        "link": "https://iscaconf.org/isca2026/",
+        "date": "TBD, 2027",
+        "place": "Raleigh, USA",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "DS"
+  },
+  {
+    "title": "SIGMETRICS",
+    "description": "ACM Special Interest Group on Measurement and Evaluation",
+    "sub": "DS",
+    "rank": {
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "sigmetrics",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "sigmetrics27",
+        "link": "https://www.sigmetrics.org/sigmetrics2027/",
+        "timeline": [
+          {
+            "abstract_deadline": "TBD",
+            "deadline": "TBD"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "TBD",
+        "place": "Atlanta, Georgia, USA"
+      }
+    ],
+    "category": "DS"
+  },
+  {
+    "title": "ASPLOS",
+    "description": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+    "sub": "DS",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "asplos",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "asplos27",
+        "link": "https://www.asplos-conference.org/asplos2027/cfp/",
+        "timeline": [
+          {
+            "deadline": "2026-04-15 23:59:59",
+            "comment": "April Cycle Submission Deadline"
+          },
+          {
+            "deadline": "2026-09-09 23:59:59",
+            "comment": "September Cycle Submission Deadline"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "April 11-15, 2027",
+        "place": "Crete, Greece"
+      }
+    ],
+    "category": "DS"
+  },
+  {
+    "title": "DCC",
+    "description": "Data Compression Conference",
+    "sub": "DS",
+    "rank": {
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "B"
+    },
+    "dblp": "dcc",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "dcc2027",
+        "link": "https://datacompressionconference.org/",
+        "timeline": [
+          {
+            "deadline": "2026-10-02 23:59:59"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "March 23-26, 2027",
+        "place": "The Cliff Lodge convention center, Snowbird, Utah, U.S."
+      }
+    ],
+    "category": "DS"
+  },
+  {
+    "title": "IEEE/ACM CGO",
+    "description": "The International Symposium on Code Generation and Optimization",
+    "sub": "DS",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "cgo",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "cgo2027",
+        "link": "https://conf.researchr.org/home/cgo-2027",
+        "timeline": [
+          {
+            "deadline": "2026-06-11 23:59:59",
+            "comment": "First Submission"
+          },
+          {
+            "deadline": "2026-09-10 23:59:59",
+            "comment": "Second Submission"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "TBD",
+        "place": "Salt Lake City, Utah, USA"
+      }
+    ],
+    "category": "DS"
+  },
+  {
+    "title": "ICDCS",
+    "description": "IEEE International Conference on Distributed Computing Systems",
+    "sub": "DS",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "icdcs",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "icdcs27",
+        "link": "http://icdcs2026.icdcs.org/",
+        "date": "TBD, 2027",
+        "place": "Seoul, South Korea",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "DS"
+  },
+  {
+    "title": "ACM MM",
+    "description": "ACM International Conference on Multimedia",
+    "sub": "CG",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "mm",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "acm mm27",
+        "link": "https://2026.acmmm.org/",
+        "date": "TBD, 2027",
+        "place": "Rio de Janeiro, Brazil",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "CG"
+  },
+  {
+    "title": "IEEE VR",
+    "description": "IEEE Virtual Reality",
+    "sub": "CG",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "vr",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "vr27",
+        "link": "https://ieeevr.org/2027/",
+        "timeline": [
+          {
+            "abstract_deadline": "TBD",
+            "deadline": "TBD"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "February 27 - March 3, 2027",
+        "place": "Melbourne, Australia"
+      }
+    ],
+    "category": "CG"
+  },
+  {
+    "title": "IEEE VIS",
+    "description": "IEEE Visualization Conference",
+    "sub": "CG",
+    "rank": {
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A"
+    },
+    "dblp": "visualization",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "ieee vis27",
+        "link": "https://ieeevis.org/year/2026/welcome",
+        "date": "TBD, 2027",
+        "place": "Boston, Massachusetts, USA",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "CG"
+  },
+  {
+    "title": "ACM SIGGRAPH",
+    "description": "ACM SIGGRAPH Annual Conference",
+    "sub": "CG",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "siggraph",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "acm siggraph27",
+        "link": "https://s2026.siggraph.org/",
+        "date": "TBD, 2027",
+        "place": "Los Angeles, California",
+        "timezone": "UTC+0",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "CG"
+  },
+  {
+    "title": "InterSpeech",
+    "description": "Conference of the International Speech Communication Association",
+    "sub": "CG",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N"
+    },
+    "dblp": "interspeech",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "interspeech27",
+        "link": "https://interspeech2026.org/",
+        "date": "TBD, 2027",
+        "place": "Sydney, Australia",
+        "timezone": "UTC+0",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "CG"
+  },
+  {
+    "title": "ICME",
+    "description": "The IEEE International Conference on Multimedia & Expo",
+    "sub": "CG",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N"
+    },
+    "dblp": "icme",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "icme27",
+        "link": "https://2026.ieeeicme.org/",
+        "date": "TBD, 2027",
+        "place": "Bangkok, Thailand",
+        "timezone": "UTC-12",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "CG"
+  },
+  {
+    "title": "ISMAR",
+    "description": "International Symposium on Mixed and Augmented Reality",
+    "sub": "CG",
+    "rank": {
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "B"
+    },
+    "dblp": "ismar",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "ismar27",
+        "link": "https://www.ieeeismar.net/2026/",
+        "date": "TBD, 2027",
+        "place": "Bari, Italy",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "CG"
+  },
+  {
+    "title": "CADE",
+    "description": "The Conference on Automated Deduction",
+    "sub": "CT",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "cade",
+    "confs": [
+      {
+        "year": "2026",
+        "id": "cade26",
+        "link": "https://www.dhbw-stuttgart.de/cade-30/",
+        "date": "TBD, 2026",
+        "place": "DHBW Stuttgart, Stuttgart, Germany",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "CT"
+  },
+  {
+    "title": "LICS",
+    "description": "IEEE Symposium on Logic in Computer Science",
+    "sub": "CT",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "lics",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "lics27",
+        "link": "https://lics.siglog.org/lics26/",
+        "date": "TBD, 2027",
+        "place": "Lisbon, Portugal",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "CT"
+  },
+  {
+    "title": "FOCS",
+    "description": "IEEE Symposium on Foundations of Computer Science",
+    "sub": "CT",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "focs",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "focs27",
+        "link": "https://sanjeevkhanna.org/FOCS2026_CFP.html",
+        "date": "TBD, 2027",
+        "place": "New York City, NY, USA",
+        "timezone": "UTC",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "CT"
+  },
+  {
+    "title": "CAV",
+    "description": "International Conference on Computer-Aided Verification",
+    "sub": "CT",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "cav",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "cav27",
+        "link": "https://conferences.i-cav.org/2026/",
+        "date": "TBD, 2027",
+        "place": "Lisbon, Portugal",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "CT"
+  },
+  {
+    "title": "ICALP",
+    "description": "EATCS International Colloquium on Automata, Languages, and Programming",
+    "sub": "CT",
+    "rank": {
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "icalp",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "icalp27",
+        "link": "https://icalppodcspaa2026.cs.rhul.ac.uk/",
+        "date": "TBD, 2027",
+        "place": "London, UK",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "CT"
+  },
+  {
+    "title": "SODA",
+    "description": "ACM-SIAM Symposium on Discrete Algorithms",
+    "sub": "CT",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "soda",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "soda27",
+        "link": "https://www.siam.org/conferences-events/siam-conferences/soda27/",
+        "timeline": [
+          {
+            "deadline": "2026-07-09 23:59:59"
+          }
+        ],
+        "timezone": "UTC-12",
+        "date": "January 24-27, 2027",
+        "place": "Philadelphia, Pennsylvania, USA"
+      }
+    ],
+    "category": "CT"
+  },
+  {
+    "title": "IJCAR",
+    "description": "International Joint Conference on Automated Reasoning",
+    "sub": "CT",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "ijcar",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "ijcar27",
+        "link": "https://www.floc26.org/ijcar",
+        "date": "TBD, 2027",
+        "place": "Lisbon, Portugal",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "CT"
+  },
+  {
+    "title": "SOCG",
+    "description": "International Symposium on Computational Geometry",
+    "sub": "CT",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "compgeom",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "socg27",
+        "link": "https://cgweek26.computational-geometry.org/contribute/",
+        "date": "TBD, 2027",
+        "place": "New Brunswick, New Jersey, USA",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "CT"
+  },
+  {
+    "title": "SAT",
+    "description": "International Conference on Theory and Applications of Satisfiability Testing",
+    "sub": "CT",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "sat",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "sat27",
+        "link": "https://satisfiability.org/SAT26/",
+        "date": "TBD, 2027",
+        "place": "Lisbon, Portugal",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "CT"
+  },
+  {
+    "title": "STOC",
+    "description": "ACM Symposium on the Theory of Computing",
+    "sub": "CT",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "stoc",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "stoc27",
+        "link": "https://acm-stoc.org/stoc2026/",
+        "date": "TBD, 2027",
+        "place": "Salt Lake City, Utah, USA",
+        "timezone": "UTC-5",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "CT"
+  },
+  {
+    "title": "ICML",
+    "description": "International Conference on Machine Learning",
+    "sub": "AI",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "icml",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "icml27",
+        "link": "https://icml.cc/Conferences/2026",
+        "date": "TBD, 2027",
+        "place": "Seoul, Korea",
+        "timezone": "UTC+0",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "EMNLP",
+    "description": "The annual Conference on Empirical Methods in Natural Language Processing",
+    "sub": "AI",
+    "rank": {
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "emnlp",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "emnlp27",
+        "link": "https://2026.emnlp.org/",
+        "date": "TBD, 2027",
+        "place": "Budapest, Hungary",
+        "timezone": "UTC-12",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "BMVC",
+    "description": "British Machine Vision Conference",
+    "sub": "AI",
+    "rank": {
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "bmvc",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "bmvc27",
+        "link": "https://bmvc2026.bmva.org/",
+        "date": "TBD, 2027",
+        "place": "Lancaster, UK",
+        "timezone": "UTC+0",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "ICCV",
+    "description": "IEEE International Conference on Computer Vision",
+    "sub": "AI",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "iccv",
+    "confs": [
+      {
+        "year": "2026",
+        "id": "iccv26",
+        "link": "https://iccv.thecvf.com/Conferences/2025",
+        "date": "TBD, 2026",
+        "place": "Honolulu, Hawaii",
+        "timezone": "UTC+0",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "ECAI",
+    "description": "European Conference on Artificial Intelligence",
+    "sub": "AI",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N"
+    },
+    "dblp": "ecai",
+    "confs": [
+      {
+        "year": "2026",
+        "id": "ecai26",
+        "link": "https://ecai2025.org/deadlines/",
+        "date": "TBD, 2026",
+        "place": "Bologna, ITALY",
+        "timezone": "UTC-12",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "ECCV",
+    "description": "European Conference on Computer Vision",
+    "sub": "AI",
+    "rank": {
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "eccv",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "eccv27",
+        "link": "https://eccv.ecva.net/",
+        "date": "TBD, 2027",
+        "place": "Malmö, Sweden",
+        "timezone": "UTC-8",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "UAI",
+    "description": "Conference on Uncertainty in Artificial Intelligence",
+    "sub": "AI",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "uai",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "uai27",
+        "link": "https://www.auai.org/uai2026/",
+        "date": "TBD, 2027",
+        "place": "Amsterdam, Netherlands",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "ICDAR",
+    "description": "International Conference on Document Analysis and Recognition",
+    "sub": "AI",
+    "rank": {
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "icdar",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "icdar27",
+        "link": "https://icdar2026.org/",
+        "date": "TBD, 2027",
+        "place": "Vienna, Austria",
+        "timezone": "UTC+0",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "PPSN",
+    "description": "International Conference on Parallel Problem Solving From Nature",
+    "sub": "AI",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N"
+    },
+    "dblp": "ppsn",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "ppsn27",
+        "link": "https://ppsn2026.disi.unitn.it/",
+        "date": "TBD, 2027",
+        "place": "University of Trento, Trento, Italy",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "IJCAI",
+    "description": "International Joint Conference on Artificial Intelligence",
+    "sub": "AI",
+    "rank": {
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "B"
+    },
+    "dblp": "ijcai",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "ijcai27",
+        "link": "https://2026.ijcai.org/",
+        "date": "TBD, 2027",
+        "place": "Bremen, Germany",
+        "timezone": "UTC-12",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "AAAI",
+    "description": "AAAI Conference on Artificial Intelligence",
+    "sub": "AI",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "aaai",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "aaai27",
+        "link": "https://aaai.org/conference/aaai/aaai-27/",
+        "timeline": [
+          {
+            "abstract_deadline": "2026-07-20 23:59:59",
+            "deadline": "2026-07-27 23:59:59"
+          }
+        ],
+        "timezone": "UTC-12",
+        "date": "February 16-23, 2027",
+        "place": "Montréal, Québec, Canada"
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "NeurIPS",
+    "description": "Conference on Neural Information Processing Systems",
+    "sub": "AI",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "nips",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "neurips27",
+        "link": "https://neurips.cc/Conferences/2026",
+        "date": "TBD, 2027",
+        "place": "Sydney, Australia",
+        "timezone": "UTC+0",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "ACL",
+    "description": "Annual Meeting of the Association for Computational Linguistics",
+    "sub": "AI",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "acl",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "acl27",
+        "link": "https://2026.aclweb.org/",
+        "date": "TBD, 2027",
+        "place": "San Diego, California, United States",
+        "timezone": "UTC-12",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "WACV",
+    "description": "IEEE/CVF Winter Conference on Applications of Computer Vision",
+    "sub": "AI",
+    "rank": {
+      "ccf": "N",
+      "core": "A",
+      "thcpl": "N"
+    },
+    "dblp": "wacv",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "wacv27",
+        "link": "https://wacv.thecvf.com/",
+        "timeline": [
+          {
+            "abstract_deadline": "2026-06-18 23:59:00",
+            "deadline": "2026-06-25 23:59:59",
+            "comment": "First round"
+          },
+          {
+            "abstract_deadline": "2026-08-20 23:59:00",
+            "deadline": "2026-08-27 23:59:59",
+            "comment": "Second round"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "Jan 5 - 9, 2027",
+        "place": "Disney Springs, Buena Vista, FL, USA"
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "COLT",
+    "description": "Annual Conference on Learning Theory",
+    "sub": "AI",
+    "rank": {
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "colt",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "colt27",
+        "link": "https://learningtheory.org/colt2026/",
+        "date": "TBD, 2027",
+        "place": "San Diego, California",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "GECCO",
+    "description": "Genetic and Evolutionary Computation Conference",
+    "sub": "AI",
+    "rank": {
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "gecco",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "gecco27",
+        "link": "https://gecco-2026.sigevo.org/HomePage",
+        "date": "TBD, 2027",
+        "place": "San José, Costa Rica (hybrid)",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "KR",
+    "description": "International Conference on Principles of Knowledge Representation and Reasoning",
+    "sub": "AI",
+    "rank": {
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "N"
+    },
+    "dblp": "kr",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "kr27",
+        "link": "https://kr.org/KR2026/",
+        "date": "TBD, 2027",
+        "place": "Lisbon, Portugal",
+        "timezone": "UTC-12",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "AISTATS",
+    "description": "International Conference on Artificial Intelligence and Statistics",
+    "sub": "AI",
+    "rank": {
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "aistats",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "aistats27",
+        "link": "https://virtual.aistats.org/Conferences/2026",
+        "date": "TBD, 2027",
+        "place": "Morocco",
+        "timezone": "UTC-12",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "AAMAS",
+    "description": "International Conference on Autonomous Agents and Multiagent Systems",
+    "sub": "AI",
+    "rank": {
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "B"
+    },
+    "dblp": "ifaamas",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "aamas27",
+        "link": "https://cyprusconferences.org/aamas2026",
+        "date": "TBD, 2027",
+        "place": "Paphos, Cyprus",
+        "timezone": "UTC-12",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "ICRA",
+    "description": "IEEE International Conference on Robotics and Automation",
+    "sub": "AI",
+    "rank": {
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "icra",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "icra27",
+        "link": "https://2026.ieee-icra.org/",
+        "date": "TBD, 2027",
+        "place": "Vienna, Austria",
+        "timezone": "UTC-8",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "RSS",
+    "description": "Robotics Science and Systems",
+    "sub": "AI",
+    "rank": {
+      "ccf": "N",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "rss",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "rss27",
+        "link": "https://roboticsconference.org",
+        "date": "TBD, 2027",
+        "place": "Sydney, Australia",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "EACL",
+    "description": "The Annual Conference of the European Chapter of the Association for Computational Linguistics",
+    "sub": "AI",
+    "rank": {
+      "ccf": "N",
+      "core": "A",
+      "thcpl": "N"
+    },
+    "dblp": "eacl",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "eacl27",
+        "link": "https://2026.eacl.org/",
+        "date": "TBD, 2027",
+        "place": "Rabat, Morocco",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "ICAPS",
+    "description": "International Conference on Automated Planning and Scheduling",
+    "sub": "AI",
+    "rank": {
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "B"
+    },
+    "dblp": "icaps",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "icaps27",
+        "link": "https://icaps26.icaps-conference.org/",
+        "date": "TBD, 2027",
+        "place": "Dublin, Ireland",
+        "timezone": "UTC-12",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "IROS",
+    "description": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+    "sub": "AI",
+    "rank": {
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "iros",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "iros27",
+        "link": "https://2026.ieee-iros.org/",
+        "date": "TBD, 2027",
+        "place": "Pittsburgh, PA, USA",
+        "timezone": "UTC-8",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "NAACL",
+    "description": "The Annual Conference of the North American Chapter of the Association for Computational Linguistics",
+    "sub": "AI",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "naacl",
+    "confs": [
+      {
+        "year": "2026",
+        "id": "naacl26",
+        "link": "https://2025.naacl.org/",
+        "date": "TBD, 2026",
+        "place": "Albuquerque, New Mexico, USA",
+        "timezone": "UTC-12",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "CVPR",
+    "description": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "sub": "AI",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "cvpr",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "cvpr27",
+        "link": "https://cvpr.thecvf.com/Conferences/2026",
+        "date": "TBD, 2027",
+        "place": "Denver, Colorado, United States",
+        "timezone": "UTC-12",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "ICLR",
+    "description": "International Conference on Learning Representations",
+    "sub": "AI",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "iclr",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "iclr27",
+        "link": "https://iclr.cc/Conferences/2026",
+        "date": "TBD, 2027",
+        "place": "Brazil",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "AI"
+  },
+  {
+    "title": "SIGIR",
+    "description": "International Conference on Research on Development in Information Retrieval",
+    "sub": "DB",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "sigir",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "sigir27",
+        "link": "https://sigir2026.org/en-AU",
+        "date": "TBD, 2027",
+        "place": "Melbourne, Australia",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "DB"
+  },
+  {
+    "title": "VLDB",
+    "description": "International Conference on Very Large Data Bases",
+    "sub": "DB",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "vldb",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "vldb27",
+        "link": "https://www.vldb.org/2027/",
+        "timeline": [
+          {
+            "abstract_deadline": "2026-03-25 17:00:00",
+            "deadline": "2026-04-01 17:00:00"
+          },
+          {
+            "abstract_deadline": "2026-04-25 17:00:00",
+            "deadline": "2026-05-01 17:00:00"
+          },
+          {
+            "abstract_deadline": "2026-05-25 17:00:00",
+            "deadline": "2026-06-01 17:00:00"
+          },
+          {
+            "abstract_deadline": "2026-06-25 17:00:00",
+            "deadline": "2026-07-01 17:00:00"
+          },
+          {
+            "abstract_deadline": "2026-07-25 17:00:00",
+            "deadline": "2026-08-01 17:00:00"
+          },
+          {
+            "abstract_deadline": "2026-08-25 17:00:00",
+            "deadline": "2026-09-01 17:00:00"
+          },
+          {
+            "abstract_deadline": "2026-09-25 17:00:00",
+            "deadline": "2026-10-01 17:00:00"
+          },
+          {
+            "abstract_deadline": "2026-10-25 17:00:00",
+            "deadline": "2026-11-01 17:00:00"
+          },
+          {
+            "abstract_deadline": "2026-11-25 17:00:00",
+            "deadline": "2026-12-01 17:00:00"
+          },
+          {
+            "abstract_deadline": "2026-12-25 17:00:00",
+            "deadline": "2027-01-01 17:00:00"
+          },
+          {
+            "abstract_deadline": "2027-01-25 17:00:00",
+            "deadline": "2027-02-01 17:00:00"
+          },
+          {
+            "abstract_deadline": "2027-02-25 17:00:00",
+            "deadline": "2027-03-01 17:00:00"
+          }
+        ],
+        "timezone": "UTC-7",
+        "date": "August 23 - August 27, 2027",
+        "place": "Athens, Greece"
+      }
+    ],
+    "category": "DB"
+  },
+  {
+    "title": "ECML-PKDD",
+    "description": "European Conference on Machine Learning and 25th Principles and Practice of Knowledge Discovery in Databases",
+    "sub": "DB",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N"
+    },
+    "dblp": "pkdd",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "ecml-pkdd27",
+        "link": "https://ecmlpkdd.org/2026/",
+        "date": "TBD, 2027",
+        "place": "Naples, Italy",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "DB"
+  },
+  {
+    "title": "ICDT",
+    "description": "International Conference on Database Theory",
+    "sub": "DB",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "icdt",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "icdt27",
+        "link": "https://edbticdt2027.github.io/",
+        "timeline": [
+          {
+            "abstract_deadline": "2026-03-03 23:59:59",
+            "deadline": "2026-03-10 23:59:59"
+          },
+          {
+            "abstract_deadline": "2026-09-03 23:59:59",
+            "deadline": "2026-09-10 23:59:59"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "April 6-9, 2027",
+        "place": "Lille, France"
+      }
+    ],
+    "category": "DB"
+  },
+  {
+    "title": "ECIR",
+    "description": "European Conference on Information Retrieval",
+    "sub": "DB",
+    "rank": {
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "ecir",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "ecir27",
+        "link": "https://ecir2026.eu/",
+        "date": "TBD, 2027",
+        "place": "Delft, The Netherlands",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "DB"
+  },
+  {
+    "title": "WSDM",
+    "description": "International Conference on Web Search and Data Mining",
+    "sub": "DB",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A"
+    },
+    "dblp": "wsdm",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "wsdm27",
+        "link": "https://wsdm-conference.org/2027/",
+        "timeline": [
+          {
+            "abstract_deadline": "2026-08-11 23:59:59",
+            "deadline": "2026-08-18 23:59:59"
+          }
+        ],
+        "timezone": "UTC-12",
+        "date": "February 15 - 19, 2027",
+        "place": "Cordis, Hong Kong SAR, China"
+      }
+    ],
+    "category": "DB"
+  },
+  {
+    "title": "ICDE",
+    "description": "IEEE International Conference on Data Engineering",
+    "sub": "DB",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "icde",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "icde27",
+        "link": "https://icde2027.github.io/",
+        "timeline": [
+          {
+            "deadline": "2026-06-11 17:00:00",
+            "comment": "first round"
+          },
+          {
+            "deadline": "2026-11-11 17:00:00",
+            "comment": "second round"
+          }
+        ],
+        "timezone": "UTC-7",
+        "date": "May 17-21, 2027",
+        "place": "Copenhagen, Denmark"
+      }
+    ],
+    "category": "DB"
+  },
+  {
+    "title": "EDBT",
+    "description": "International Conference on Extending Database Technology",
+    "sub": "DB",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "edbt",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "edbt27",
+        "link": "https://edbticdt2027.github.io/",
+        "timeline": [
+          {
+            "deadline": "2026-02-04 23:59:59"
+          },
+          {
+            "deadline": "2026-06-10 23:59:59"
+          },
+          {
+            "deadline": "2026-10-07 23:59:59"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "April 6-9, 2027",
+        "place": "Lille, France"
+      }
+    ],
+    "category": "DB"
+  },
+  {
+    "title": "ISWC",
+    "description": "International Semantic Web Conference",
+    "sub": "DB",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "semweb",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "iswc27",
+        "link": "https://iswc2026.semanticweb.org/",
+        "date": "TBD, 2027",
+        "place": "Bari, Italy",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "DB"
+  },
+  {
+    "title": "SIGKDD",
+    "description": "ACM Knowledge Discovery and Data Mining",
+    "sub": "DB",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "kdd",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "sigkdd27",
+        "link": "https://kdd2026.kdd.org/",
+        "date": "TBD, 2027",
+        "place": "Jeju, Korea",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "DB"
+  },
+  {
+    "title": "SDM",
+    "description": "SIAM International Conference on Data Mining",
+    "sub": "DB",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "sdm",
+    "confs": [
+      {
+        "year": "2026",
+        "id": "sdm26",
+        "link": "https://www.siam.org/conferences-events/siam-conferences/sdm25",
+        "date": "TBD, 2026",
+        "place": "Alexandria, Virginia, USA",
+        "timezone": "UTC-8",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "DB"
+  },
+  {
+    "title": "ICDM",
+    "description": "IEEE International Conference on Data Mining",
+    "sub": "DB",
+    "rank": {
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "B"
+    },
+    "dblp": "icdm",
+    "confs": [
+      {
+        "year": 2026,
+        "id": "icdm2026",
+        "link": "http://icdm2026.neu.edu.cn/",
+        "timeline": [
+          {
+            "abstract_deadline": "2026-05-30 23:59:59",
+            "deadline": "2026-06-06 23:59:59"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "November 12-15, 2026",
+        "place": "Shenyang, China"
+      }
+    ],
+    "category": "DB"
+  },
+  {
+    "title": "RecSys",
+    "description": "ACM Conference on Recommender Systems",
+    "sub": "DB",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "recsys",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "recsys27",
+        "link": "https://recsys.acm.org/recsys26",
+        "date": "TBD, 2027",
+        "place": "Minneapolis, Minnesota, USA",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "DB"
+  },
+  {
+    "title": "SIGMOD",
+    "description": "ACM Conference on Management of Data",
+    "sub": "DB",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "sigmod",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "sigmod27",
+        "link": "https://2027.sigmod.org/",
+        "timeline": [
+          {
+            "abstract_deadline": "2026-01-10 23:59:00",
+            "deadline": "2026-01-17 23:59:00",
+            "comment": "round 1"
+          },
+          {
+            "abstract_deadline": "2026-04-10 23:59:00",
+            "deadline": "2026-04-17 23:59:00",
+            "comment": "round 2"
+          },
+          {
+            "abstract_deadline": "2026-07-10 23:59:00",
+            "deadline": "2026-07-17 23:59:00",
+            "comment": "round 3"
+          },
+          {
+            "abstract_deadline": "2026-10-10 23:59:00",
+            "deadline": "2026-10-17 23:59:00",
+            "comment": "round 4"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "June 13-19, 2027",
+        "place": "Huntington Beach, CA, USA"
+      }
+    ],
+    "category": "DB"
+  },
+  {
+    "title": "CIKM",
+    "description": "ACM International Conference on Information and Knowledge Management",
+    "sub": "DB",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "cikm",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "cikm27",
+        "link": "https://cikm2026.diag.uniroma1.it/",
+        "date": "TBD, 2027",
+        "place": "Rome, Italy",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "DB"
+  },
+  {
+    "title": "CIDR",
+    "description": "International Conference on Innovative Data Systems Research",
+    "sub": "DB",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N"
+    },
+    "dblp": "cidr",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "cidr27",
+        "link": "https://www.cidrdb.org/cidr2027/",
+        "timeline": [
+          {
+            "deadline": "2026-08-04 23:59:59"
+          }
+        ],
+        "timezone": "UTC-7",
+        "date": "January 24-27, 2027",
+        "place": "Amsterdam, The Netherlands"
+      }
+    ],
+    "category": "DB"
+  },
+  {
+    "title": "PODS",
+    "description": "ACM Symposium on Principles of Database Systems",
+    "sub": "DB",
+    "rank": {
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "pods",
+    "confs": [
+      {
+        "year": "2026",
+        "id": "pods26",
+        "link": "https://2025.sigmod.org/",
+        "date": "TBD, 2026",
+        "place": "Berlin, Germany",
+        "timezone": "UTC-7",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "DB/pods"
+  },
+  {
+    "title": "UIST",
+    "description": "ACM Symposium on User Interface Software and Technology",
+    "sub": "HI",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "uist",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "uist27",
+        "link": "https://uist.acm.org/2026/",
+        "date": "TBD, 2027",
+        "place": "GM Renaissance Center, Detroit, MI, USA",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "HI"
+  },
+  {
+    "title": "UbiComp/ISWC",
+    "description": "ACM International Joint Conference on Pervasive and Ubiquitous Computing",
+    "sub": "HI",
+    "rank": {
+      "ccf": "A",
+      "core": "N",
+      "thcpl": "A"
+    },
+    "dblp": "huc",
+    "confs": [
+      {
+        "year": 2026,
+        "id": "ubicomp26",
+        "link": "https://www.ubicomp.org/ubicomp-iswc-2026",
+        "timeline": [
+          {
+            "deadline": "2026-02-01 23:59:59",
+            "comment": "first round"
+          },
+          {
+            "deadline": "2026-05-01 23:59:59",
+            "comment": "second round"
+          },
+          {
+            "deadline": "2026-08-01 23:59:59",
+            "comment": "third round (only for resubmissions after major revisions)"
+          },
+          {
+            "deadline": "2026-11-01 23:59:59",
+            "comment": "fourth round"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "October 11-15, 2026",
+        "place": "Shanghai, China"
+      }
+    ],
+    "category": "HI"
+  },
+  {
+    "title": "CHI",
+    "description": "ACM Conference on Human Factors in Computing Systems",
+    "sub": "HI",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "chi",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "chi27",
+        "link": "https://chi2027.acm.org/",
+        "timeline": [
+          {
+            "deadline": "2026-09-10 23:59:59"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "May 10 - 14, 2027",
+        "place": "David L. Lawrence Convention Center, Pittsburgh, USA"
+      }
+    ],
+    "category": "HI"
+  },
+  {
+    "title": "ASSETS",
+    "description": "ACM SIGACCESS Conference on Computers and Accessibility",
+    "sub": "HI",
+    "rank": {
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "assets",
+    "confs": [
+      {
+        "year": "2026",
+        "id": "assets26",
+        "link": "https://assets25.sigaccess.org/",
+        "date": "TBD, 2026",
+        "place": "Denver, Colorado",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "HI"
+  },
+  {
+    "title": "PerCom",
+    "description": "IEEE International Conference on Pervasive Computing and Communications",
+    "sub": "HI",
+    "rank": {
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "B"
+    },
+    "dblp": "percom",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "percom27",
+        "link": "https://percom.org/",
+        "date": "TBD, 2027",
+        "place": "Pisa, Italy",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "HI"
+  },
+  {
+    "title": "ICWSM",
+    "description": "The International AAAI Conference on Web and Social Media",
+    "sub": "HI",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N"
+    },
+    "dblp": "icwsm",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "icwsm27",
+        "link": "https://www.icwsm.org/2026/index.html",
+        "date": "TBD, 2027",
+        "place": "Los Angeles, CA, USA",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "HI"
+  },
+  {
+    "title": "IUI",
+    "description": "ACM Conference on Intelligent User Interfaces",
+    "sub": "HI",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "iui",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "iui27",
+        "link": "https://iui.hosting.acm.org/2027/",
+        "timeline": [
+          {
+            "abstract_deadline": "TBD",
+            "deadline": "TBD"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "February 8-11, 2027",
+        "place": "Helsinki, Finland"
+      }
+    ],
+    "category": "HI"
+  },
+  {
+    "title": "DIS",
+    "description": "ACM Conference on Designing Interactive Systems",
+    "sub": "HI",
+    "rank": {
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "ACMdis",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "dis27",
+        "link": "https://dis.acm.org/2026/",
+        "date": "TBD, 2027",
+        "place": "Singapore",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "HI"
+  },
+  {
+    "title": "CSCW",
+    "description": "ACM Conference on Computer Supported Cooperative Work and Social Computing",
+    "sub": "HI",
+    "rank": {
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A"
+    },
+    "dblp": "cscw",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "cscw27",
+        "link": "https://cscw.acm.org/2026/",
+        "date": "TBD, 2027",
+        "place": "Salt Lake City, Utah, USA",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "HI"
+  },
+  {
+    "title": "WWW",
+    "description": "International World Wide Web Conferences",
+    "sub": "MX",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "www",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "www27",
+        "link": "https://www2027.thewebconf.org/",
+        "timeline": [
+          {
+            "abstract_deadline": "TBD",
+            "deadline": "TBD"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "TBD",
+        "place": "Dublin, Ireland"
+      }
+    ],
+    "category": "MX"
+  },
+  {
+    "title": "MICCAI",
+    "description": "International Conference on Medical Image Computing and Computer Assisted Intervention",
+    "sub": "MX",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "miccai",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "miccai27",
+        "link": "https://conferences.miccai.org/2026/en/IMPORTANT-DATES.html",
+        "date": "TBD, 2027",
+        "place": "ADNEC Centre, Abu Dhabi, U.A.E.",
+        "timezone": "UTC-8",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "MX"
+  },
+  {
+    "title": "RTSS",
+    "description": "The IEEE Real-Time Systems Symposium",
+    "sub": "MX",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "B"
+    },
+    "dblp": "rtss",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "rtss27",
+        "link": "http://2026.rtss.org/",
+        "date": "TBD, 2027",
+        "place": "Yokohama, Japan",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "MX"
+  },
+  {
+    "title": "SIGSPATIAL",
+    "description": "ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems",
+    "sub": "MX",
+    "rank": {
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "N"
+    },
+    "dblp": "sigspatial",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "sigspatial27",
+        "link": "https://sigspatial2026.sigspatial.org/",
+        "date": "TBD, 2027",
+        "place": "Riverside, CA, USA",
+        "timezone": "UTC-7",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "MX"
+  },
+  {
+    "title": "MMSys",
+    "description": "ACM International Conference on Multimedia Systems",
+    "sub": "NW",
+    "rank": {
+      "ccf": "N",
+      "core": "A",
+      "thcpl": "N"
+    },
+    "dblp": "mmsys",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "mmsys27",
+        "link": "https://2027.acmmmsys.org",
+        "timeline": [
+          {
+            "abstract_deadline": "2026-09-10 23:59:59",
+            "deadline": "2026-09-17 23:59:59"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "March 30 - April 2, 2027",
+        "place": "Ghent, Belgium"
+      }
+    ],
+    "category": "NW"
+  },
+  {
+    "title": "MSWiM",
+    "description": "International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems",
+    "sub": "NW",
+    "rank": {
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "N"
+    },
+    "dblp": "mswim",
+    "confs": [
+      {
+        "year": 2026,
+        "id": "mswim26",
+        "link": "https://mswimconf.com/2026/",
+        "timeline": [
+          {
+            "deadline": "2026-06-01 23:59:59"
+          }
+        ],
+        "timezone": "UTC+1",
+        "date": "October 26-30, 2026",
+        "place": "Paris, France"
+      }
+    ],
+    "category": "NW"
+  },
+  {
+    "title": "MobiSys",
+    "description": "ACM International Conference on Mobile Systems, Applications, and Services",
+    "sub": "NW",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A"
+    },
+    "dblp": "mobisys",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "mobisys27",
+        "link": "https://www.sigmobile.org/mobisys/2026/",
+        "date": "TBD, 2027",
+        "place": "Cambridge, UK",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "NW"
+  },
+  {
+    "title": "SIGCOMM",
+    "description": "ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+    "sub": "NW",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "sigcomm",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "sigcomm27",
+        "link": "https://conferences.sigcomm.org/sigcomm/2026/",
+        "date": "TBD, 2027",
+        "place": "Denver, Colorado, USA",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "NW"
+  },
+  {
+    "title": "SenSys",
+    "description": "ACM Conference on Embedded Networked Sensor Systems",
+    "sub": "NW",
+    "rank": {
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "sensys",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "sensys27",
+        "link": "https://sensys.acm.org/2027/",
+        "timeline": [
+          {
+            "abstract_deadline": "2026-05-29 23:59:00",
+            "deadline": "2026-06-05 23:59:00",
+            "comment": "1st deadline"
+          },
+          {
+            "abstract_deadline": "TBD",
+            "deadline": "TBD",
+            "comment": "2nd deadline"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "2027",
+        "place": "New York, USA"
+      }
+    ],
+    "category": "NW"
+  },
+  {
+    "title": "CoNEXT",
+    "description": "International Conference on Emerging Networking Experiments and Technologies",
+    "sub": "NW",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A"
+    },
+    "dblp": "conext",
+    "confs": [
+      {
+        "year": 2026,
+        "id": "conext26",
+        "link": "https://conferences.sigcomm.org/co-next/2026/#!/home",
+        "timeline": [
+          {
+            "abstract_deadline": "2025-12-05 23:59:59",
+            "deadline": "2025-12-12 23:59:59",
+            "comment": "December Cycle"
+          },
+          {
+            "abstract_deadline": "2026-05-29 23:59:59",
+            "deadline": "2026-06-05 23:59:59",
+            "comment": "June Cycle"
+          }
+        ],
+        "timezone": "AoE",
+        "date": "December 7-10, 2026",
+        "place": "Utrecht, The Netherlands"
+      }
+    ],
+    "category": "NW"
+  },
+  {
+    "title": "MobiCom",
+    "description": "ACM Annual International Conference On Mobile Computing And Networking",
+    "sub": "NW",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "mobicom",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "mobicom27",
+        "link": "https://sigmobile.org/mobicom/2026/",
+        "date": "TBD, 2027",
+        "place": "Austin, Texas, USA",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "NW"
+  },
+  {
+    "title": "IMC",
+    "description": "ACM Internet Measurement Conference",
+    "sub": "NW",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A"
+    },
+    "dblp": "imc",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "imc27",
+        "link": "https://conferences.sigcomm.org/imc/2026/",
+        "date": "TBD, 2027",
+        "place": "Karlsruhe, Germany",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "NW"
+  },
+  {
+    "title": "INFOCOM",
+    "description": "IEEE International Conference on Computer Communications",
+    "sub": "NW",
+    "rank": {
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A"
+    },
+    "dblp": "infocom",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "infocom27",
+        "link": "https://infocom2026.ieee-infocom.org/",
+        "date": "TBD, 2027",
+        "place": "Tokyo, Japan",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "NW"
+  },
+  {
+    "title": "NSDI",
+    "description": "USENIX Symposium on Networked Systems Design and Implementation",
+    "sub": "NW",
+    "rank": {
+      "ccf": "A",
+      "core": "N",
+      "thcpl": "A"
+    },
+    "dblp": "nsdi",
+    "confs": [
+      {
+        "year": 2027,
+        "id": "nsdi27",
+        "link": "https://www.usenix.org/conference/nsdi27",
+        "timeline": [
+          {
+            "abstract_deadline": "2026-04-16 23:59:59",
+            "deadline": "2026-04-23 23:59:59"
+          },
+          {
+            "abstract_deadline": "2026-09-10 23:59:59",
+            "deadline": "2026-09-17 23:59:59"
+          }
+        ],
+        "timezone": "UTC-4",
+        "date": "May 11-13, 2027",
+        "place": "Providence, RI, USA"
+      }
+    ],
+    "category": "NW"
+  },
+  {
+    "title": "MobiHoc",
+    "description": "International Symposium on Mobile Ad Hoc Networking and Computing",
+    "sub": "NW",
+    "rank": {
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B"
+    },
+    "dblp": "mobihoc",
+    "confs": [
+      {
+        "year": "2027",
+        "id": "mobihoc27",
+        "link": "https://www.sigmobile.org/mobihoc/2026/",
+        "date": "TBD, 2027",
+        "place": "Tokyo, Japan",
+        "timezone": "AoE",
+        "timeline": [
+          {
+            "deadline": "TBD",
+            "comment": "Estimated Paper Deadline"
+          }
+        ],
+        "projected": true
+      }
+    ],
+    "category": "NW"
+  }
+]

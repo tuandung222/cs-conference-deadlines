@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A/A* CS Conference Deadline Tracker</title>
+  <meta name="description" content="Track upcoming deadlines for top-tier (Rank A and A*) Computer Science conferences. Real-time countdowns, timezone conversion, tracks, and calendar exports.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⏱️</text></svg>">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  
+  <div class="stars-bg"></div>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="header-container">
+      <div class="logo-area">
+        <span class="logo-icon">⏱️</span>
+        <div>
+          <h1>CS Conf Deadlines</h1>
+          <p class="subtitle">Rank A & A* Tracker (June 2026 onwards)</p>
+        </div>
+      </div>
+      <div class="theme-info">
+        <span class="timezone-badge" id="current-timezone-badge">Timezone: Detecting...</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    
+    <!-- Hero / Metrics Section -->
+    <section class="metrics-section" id="metrics-panel">
+      <div class="metric-card">
+        <span class="metric-title">Total Conferences</span>
+        <span class="metric-value" id="stat-total-confs">0</span>
+      </div>
+      <div class="metric-card highlight">
+        <span class="metric-title">Upcoming (Next 30 Days)</span>
+        <span class="metric-value" id="stat-upcoming">0</span>
+        <span class="metric-sub" id="stat-upcoming-details">Deadlines approaching</span>
+      </div>
+      <div class="metric-card">
+        <span class="metric-title">A* Conferences</span>
+        <span class="metric-value" id="stat-astar">0</span>
+      </div>
+      <div class="metric-card">
+        <span class="metric-title">A Conferences</span>
+        <span class="metric-value" id="stat-arank">0</span>
+      </div>
+    </section>
+
+    <!-- Filters Section -->
+    <section class="filters-container">
+      <div class="search-bar-wrapper">
+        <input type="text" id="search-input" placeholder="Search by name, abbreviation or location (e.g., CVPR, Singapore)..." aria-label="Search conferences">
+        <span class="search-icon">🔍</span>
+      </div>
+      
+      <div class="filter-groups">
+        <!-- Ranks -->
+        <div class="filter-group">
+          <span class="filter-group-label">Rank</span>
+          <div class="pills-container" id="rank-filters">
+            <button class="pill active" data-rank="all">All</button>
+            <button class="pill" data-rank="A*">A* Only</button>
+            <button class="pill" data-rank="A">A Only</button>
+          </div>
+        </div>
+
+        <!-- Sort By -->
+        <div class="filter-group">
+          <span class="filter-group-label">Sort by</span>
+          <select id="sort-select" class="custom-select" aria-label="Sort conferences">
+            <option value="deadline">Closest Deadline</option>
+            <option value="alphabetical">Alphabetical</option>
+            <option value="rank">Highest Rank</option>
+          </select>
+        </div>
+
+        <!-- Timeline Status Toggles -->
+        <div class="filter-group">
+          <span class="filter-group-label">Deadlines</span>
+          <div class="pills-container" id="status-filters">
+            <button class="pill active" data-status="upcoming">Upcoming & TBD</button>
+            <button class="pill" data-status="all">Show All (Inc. Past)</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categories / Subfields -->
+      <div class="categories-wrapper">
+        <span class="filter-group-label">Fields of Research</span>
+        <div class="categories-container" id="category-filters">
+          <button class="category-btn active" data-cat="all">All Fields</button>
+          <button class="category-btn" data-cat="AI">Artificial Intelligence</button>
+          <button class="category-btn" data-cat="DB">Databases & IR</button>
+          <button class="category-btn" data-cat="SE">Software Eng & PL</button>
+          <button class="category-btn" data-cat="NW">Networks & Dist.</button>
+          <button class="category-btn" data-cat="SC">Security & Privacy</button>
+          <button class="category-btn" data-cat="SYS">Computer Systems</button>
+          <button class="category-btn" data-cat="TH">Theory & Algorithms</button>
+          <button class="category-btn" data-cat="CG">Graphics & HCI</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Conference List Section -->
+    <section class="conferences-section">
+      <div class="section-header-meta">
+        <h2 id="results-count-title">Showing 0 Conferences</h2>
+        <span class="timezone-tip">⏰ Times are converted to your local time automatically.</span>
+      </div>
+      
+      <!-- Cards Grid -->
+      <div class="conferences-grid" id="conferences-grid">
+        <!-- Rendered dynamically by index.js -->
+        <div class="loading-state">
+          <div class="spinner"></div>
+          <p>Loading conference deadlines...</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Detailed Modal -->
+  <dialog id="detail-modal" class="detail-modal">
+    <div class="modal-content" id="modal-content">
+      <!-- Generated dynamically by index.js -->
+    </div>
+  </dialog>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="footer-container">
+      <p>&copy; 2026 CS Conference Tracker. Dedicated repository for TuanDung/repo.</p>
+      <p>Data synced with <a href="https://github.com/ccfddl/ccf-deadlines" target="_blank" rel="noopener">ccf-deadlines</a>. Built for GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="index.js" type="module"></script>
+</body>
+</html>
