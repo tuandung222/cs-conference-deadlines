@@ -42,6 +42,28 @@ window.addEventListener('DOMContentLoaded', async () => {
   const localTz = Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC';
   tzBadgeEl.textContent = `Local Timezone: ${localTz}`;
 
+  // Theme Toggle Setup
+  const themeToggleBtn = document.getElementById('theme-toggle-btn');
+  const currentTheme = localStorage.getItem('theme') || 'dark';
+
+  if (currentTheme === 'light') {
+    document.body.classList.add('light-theme');
+    if (themeToggleBtn) themeToggleBtn.textContent = '☀️';
+  } else {
+    document.body.classList.remove('light-theme');
+    if (themeToggleBtn) themeToggleBtn.textContent = '🌙';
+  }
+
+  if (themeToggleBtn) {
+    themeToggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('light-theme');
+      
+      const isLight = document.body.classList.contains('light-theme');
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+      themeToggleBtn.textContent = isLight ? '☀️' : '🌙';
+    });
+  }
+
   // Fetch and init data
   await loadConferences();
 
