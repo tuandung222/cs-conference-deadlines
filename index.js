@@ -140,6 +140,9 @@ function parseDeadline(deadlineStr, tzStr) {
   
   // Standardize deadline string: replace space with T
   let iso = deadlineStr.trim().replace(' ', 'T');
+  if (!iso.includes('T')) {
+    iso = iso + 'T23:59:59';
+  }
   
   // Parse timezone offset
   let offset = '-12:00'; // Default to AoE if not specified
