@@ -116,8 +116,14 @@
     <!-- Conference List Section -->
     <section class="conferences-section">
       <div class="section-header-meta">
-        <h2 id="results-count-title">Showing 0 Conferences</h2>
-        <span class="timezone-tip">⏰ Times are converted to your local time automatically.</span>
+        <div class="section-title-wrapper">
+          <h2 id="results-count-title">Showing 0 Conferences</h2>
+          <span class="timezone-tip">⏰ Times are converted to your local time automatically.</span>
+        </div>
+        <div class="view-switcher" id="view-switcher">
+          <button class="view-btn active" data-view="grid" title="Grid View">🎴 Grid View</button>
+          <button class="view-btn" data-view="table" title="Table View">📊 Table View</button>
+        </div>
       </div>
       
       <!-- Cards Grid -->
@@ -127,6 +133,28 @@
           <div class="spinner"></div>
           <p>Loading conference deadlines...</p>
         </div>
+      </div>
+
+      <!-- Table View Wrapper -->
+      <div class="conferences-table-wrapper" id="conferences-table-wrapper" style="display: none;">
+        <table class="conferences-table" id="conferences-table">
+          <thead>
+            <tr>
+              <th data-sort-head="alphabetical" style="cursor: pointer;">Acronym ⇅</th>
+              <th>Full Name</th>
+              <th data-sort-head="rank" style="cursor: pointer;">Rank ⇅</th>
+              <th>Field</th>
+              <th>Location</th>
+              <th>Conf Dates</th>
+              <th data-sort-head="deadline" class="sort-active" style="cursor: pointer;">Next Deadline ⇅</th>
+              <th>Countdown</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="table-body">
+            <!-- Rendered dynamically by index.js -->
+          </tbody>
+        </table>
       </div>
     </section>
   </main>

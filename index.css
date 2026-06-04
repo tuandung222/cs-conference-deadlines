@@ -1026,3 +1026,144 @@ a:hover {
     width: 100%;
   }
 }
+
+/* View Switcher */
+.view-switcher {
+  display: flex;
+  background: rgba(6, 9, 19, 0.5);
+  border: 1px solid var(--border-color);
+  padding: 0.2rem;
+  border-radius: 10px;
+}
+
+.view-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: var(--font-sans);
+  transition: all var(--transition-fast);
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.view-btn:hover {
+  color: var(--text-primary);
+}
+
+.view-btn.active {
+  background: var(--accent-blue);
+  color: #fff;
+}
+
+/* Table View Styling */
+.conferences-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: 16px;
+  border: 1px solid var(--border-color);
+  background: var(--bg-surface);
+  backdrop-filter: blur(8px);
+  box-shadow: var(--shadow-md);
+}
+
+.conferences-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  text-align: left;
+}
+
+.conferences-table th, 
+.conferences-table td {
+  padding: 1rem 1.2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.conferences-table th {
+  background: rgba(6, 9, 19, 0.6);
+  color: var(--text-secondary);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  user-select: none;
+  transition: color var(--transition-fast), background var(--transition-fast);
+}
+
+.conferences-table th:hover {
+  color: var(--text-primary);
+  background: rgba(6, 9, 19, 0.8);
+}
+
+.conferences-table th.sort-active {
+  color: var(--accent-blue);
+  border-bottom: 2px solid var(--accent-blue);
+}
+
+.table-row-clickable {
+  cursor: pointer;
+  transition: background var(--transition-fast);
+}
+
+.table-row-clickable:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.table-acronym-cell {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1rem;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.table-desc-cell {
+  color: var(--text-secondary);
+  max-width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.table-deadline-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.table-original-dl {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.table-local-dl {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+}
+
+/* Responsiveness for Table columns */
+@media (max-width: 1024px) {
+  .conferences-table th:nth-child(2), 
+  .conferences-table td:nth-child(2) {
+    display: none; /* Hide Full Description on Tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .conferences-table th:nth-child(5), 
+  .conferences-table td:nth-child(5),
+  .conferences-table th:nth-child(6), 
+  .conferences-table td:nth-child(6) {
+    display: none; /* Hide Location and Dates on Mobile */
+  }
+}
+

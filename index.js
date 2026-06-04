@@ -31,6 +31,11 @@ const resultsTitleEl = document.getElementById('results-count-title');
 const tzBadgeEl = document.getElementById('current-timezone-badge');
 const detailModalEl = document.getElementById('detail-modal');
 
+let currentView = 'grid'; // 'grid', 'table'
+const viewSwitcherEl = document.getElementById('view-switcher');
+const tableWrapperEl = document.getElementById('conferences-table-wrapper');
+const tableBodyEl = document.getElementById('table-body');
+
 // Page Load
 window.addEventListener('DOMContentLoaded', async () => {
   // Display detected local timezone
@@ -202,151 +207,270 @@ function renderDashboard() {
   // Update section title
   resultsTitleEl.textContent = `Showing ${filtered.length} Conference${filtered.length === 1 ? '' : 's'}`;
 
+  // Sync sorting active classes in table headers
+  document.querySelectorAll('#conferences-table th[data-sort-head]').forEach(th => {
+    th.classList.toggle('sort-active', th.getAttribute('data-sort-head') === sortBy);
+  });
+
   if (filtered.length === 0) {
-    gridEl.innerHTML = `
+    const emptyStateHtml = `
       <div class="empty-state">
         <p>🔍 No conferences match your active filters.</p>
         <button class="btn btn-secondary" id="reset-filters-btn">Clear All Filters</button>
       </div>
     `;
+    if (currentView === 'grid') {
+      gridEl.innerHTML = emptyStateHtml;
+      tableWrapperEl.style.display = 'none';
+      gridEl.style.display = 'grid';
+    } else {
+      tableBodyEl.innerHTML = `<tr><td colspan="9" style="text-align:center; padding: 2rem;">🔍 No conferences match your active filters.</td></tr>`;
+      tableWrapperEl.style.display = 'block';
+      gridEl.style.display = 'none';
+    }
     document.getElementById('reset-filters-btn')?.addEventListener('click', resetFilters);
     return;
   }
 
-  // Render cards
-  gridEl.innerHTML = filtered.map(conf => {
-    const rankLabel = conf.rank.ccf === 'A' || conf.rank.core === 'A*' ? 'A*' : 'A';
-    const rankClass = rankLabel === 'A*' ? 'rank-astar' : 'rank-a';
-    const latest = conf.latestInstance;
-    
-    // Badges layout
-    const badgesHtml = `
-      <span class="badge rank-badge-${rankLabel}">${rankLabel} Rank</span>
-      <span class="badge category-badge">${conf.category}</span>
-      ${conf.isProjected ? '<span class="badge projected-badge">Projected</span>' : ''}
-    `;
+  if (currentView === 'grid') {
+    tableWrapperEl.style.display = 'none';
+    gridEl.style.display = 'grid';
 
-    // Deadlines layout inside card
-    let deadlineRowsHtml = '';
-    if (conf.parsedDeadlines && conf.parsedDeadlines.length > 0) {
-      deadlineRowsHtml = conf.parsedDeadlines.map(d => {
-        const isPassed = d.parsedDate && d.parsedDate < new Date();
-        const dateDisplay = d.parsedDate ? formatToLocal(d.parsedDate) : 'TBD';
-        
-        return `
-          <div class="timeline-deadline-row ${isPassed ? 'passed' : ''}">
-            <div class="timeline-row-header">
-              <span class="timeline-row-comment">${d.comment}</span>
-              <span class="timezone-label">${d.timezone}</span>
-            </div>
-            <div class="timeline-row-date">${d.originalStr}</div>
-            <div class="timeline-row-local-date">
-              <span>🏠 Local:</span>
-              <span>${dateDisplay}</span>
-            </div>
-          </div>
-        `;
-      }).join('');
-    }
-
-    // Next deadline data-attributes for countdown
-    let countdownAttr = 'data-tbd="true"';
-    if (conf.nextDeadline && !conf.isTbd) {
-      const now = new Date();
-      if (conf.nextDeadline > now) {
-        countdownAttr = `data-deadline-utc="${conf.nextDeadline.toISOString()}"`;
-      } else {
-        countdownAttr = `data-deadline-utc="${conf.nextDeadline.toISOString()}" data-passed="true"`;
-      }
-    }
-
-    return `
-      <article class="conf-card ${rankClass}" data-id="${conf.title}">
-        <div class="card-header">
-          <div class="card-badges">${badgesHtml}</div>
-          <div class="card-actions-row">
-            ${conf.nextDeadline && !conf.isTbd && conf.nextDeadline > new Date() ? `
-              <button class="quick-action-btn" title="Add nearest deadline to Google Calendar" data-action="gcal" data-id="${conf.title}">📅</button>
-              <button class="quick-action-btn" title="Download .ics event file" data-action="ics" data-id="${conf.title}">📥</button>
-            ` : ''}
-          </div>
-        </div>
-
-        <div class="card-title-area">
-          <div class="card-title-row">
-            <span class="conf-acronym">${conf.title}</span>
-            <span class="conf-year">${latest?.year || ''}</span>
-          </div>
-          <span class="conf-fullname" title="${conf.description}">${conf.description}</span>
-        </div>
-
-        <div class="conf-details-list">
-          <div class="detail-item">
-            <span class="detail-icon">📍</span>
-            <span>${latest?.place || 'TBD'}</span>
-          </div>
-          <div class="detail-item">
-            <span class="detail-icon">📅</span>
-            <span>${latest?.date || 'TBD'}</span>
-          </div>
-        </div>
-
-        <div class="card-timeline-area">
-          ${deadlineRowsHtml}
-        </div>
-
-        <div class="countdown-container" ${countdownAttr}>
-          <div class="countdown-timer">
-            <!-- Dynamically ticking -->
-            <div class="timer-segment">
-              <span class="timer-unit-val">-</span>
-              <span class="timer-unit-lbl">d</span>
-            </div>
-            <div class="timer-segment">
-              <span class="timer-unit-val">-</span>
-              <span class="timer-unit-lbl">h</span>
-            </div>
-            <div class="timer-segment">
-              <span class="timer-unit-val">-</span>
-              <span class="timer-unit-lbl">m</span>
-            </div>
-            <div class="timer-segment">
-              <span class="timer-unit-val">-</span>
-              <span class="timer-unit-lbl">s</span>
-            </div>
-          </div>
-          <div class="status-pulse"></div>
-        </div>
-      </article>
-    `;
-  }).join('');
-
-  // Add click listeners to cards and buttons
-  document.querySelectorAll('.conf-card').forEach(card => {
-    card.addEventListener('click', (e) => {
-      // Ignore click if it's on quick actions
-      if (e.target.closest('.quick-action-btn')) {
-        const btn = e.target.closest('.quick-action-btn');
-        const action = btn.getAttribute('data-action');
-        const id = btn.getAttribute('data-id');
-        const conf = conferences.find(c => c.title === id);
-        
-        if (action === 'gcal') {
-          exportToGoogleCalendar(conf);
-        } else if (action === 'ics') {
-          exportToICS(conf);
-        }
-        return;
-      }
+    // Render cards
+    gridEl.innerHTML = filtered.map(conf => {
+      const rankLabel = conf.rank.ccf === 'A' || conf.rank.core === 'A*' ? 'A*' : 'A';
+      const rankClass = rankLabel === 'A*' ? 'rank-astar' : 'rank-a';
+      const latest = conf.latestInstance;
       
-      const id = card.getAttribute('data-id');
-      openDetailModal(id);
+      // Badges layout
+      const badgesHtml = `
+        <span class="badge rank-badge-${rankLabel}">${rankLabel} Rank</span>
+        <span class="badge category-badge">${conf.category}</span>
+        ${conf.isProjected ? '<span class="badge projected-badge">Projected</span>' : ''}
+      `;
+
+      // Deadlines layout inside card
+      let deadlineRowsHtml = '';
+      if (conf.parsedDeadlines && conf.parsedDeadlines.length > 0) {
+        deadlineRowsHtml = conf.parsedDeadlines.map(d => {
+          const isPassed = d.parsedDate && d.parsedDate < new Date();
+          const dateDisplay = d.parsedDate ? formatToLocal(d.parsedDate) : 'TBD';
+          
+          return `
+            <div class="timeline-deadline-row ${isPassed ? 'passed' : ''}">
+              <div class="timeline-row-header">
+                <span class="timeline-row-comment">${d.comment}</span>
+                <span class="timezone-label">${d.timezone}</span>
+              </div>
+              <div class="timeline-row-date">${d.originalStr}</div>
+              <div class="timeline-row-local-date">
+                <span>🏠 Local:</span>
+                <span>${dateDisplay}</span>
+              </div>
+            </div>
+          `;
+        }).join('');
+      }
+
+      // Next deadline data-attributes for countdown
+      let countdownAttr = 'data-tbd="true"';
+      if (conf.nextDeadline && !conf.isTbd) {
+        const now = new Date();
+        if (conf.nextDeadline > now) {
+          countdownAttr = `data-deadline-utc="${conf.nextDeadline.toISOString()}"`;
+        } else {
+          countdownAttr = `data-deadline-utc="${conf.nextDeadline.toISOString()}" data-passed="true"`;
+        }
+      }
+
+      return `
+        <article class="conf-card ${rankClass}" data-id="${conf.title}">
+          <div class="card-header">
+            <div class="card-badges">${badgesHtml}</div>
+            <div class="card-actions-row">
+              ${conf.nextDeadline && !conf.isTbd && conf.nextDeadline > new Date() ? `
+                <button class="quick-action-btn" title="Add nearest deadline to Google Calendar" data-action="gcal" data-id="${conf.title}">📅</button>
+                <button class="quick-action-btn" title="Download .ics event file" data-action="ics" data-id="${conf.title}">📥</button>
+              ` : ''}
+            </div>
+          </div>
+
+          <div class="card-title-area">
+            <div class="card-title-row">
+              <span class="conf-acronym">${conf.title}</span>
+              <span class="conf-year">${latest?.year || ''}</span>
+            </div>
+            <span class="conf-fullname" title="${conf.description}">${conf.description}</span>
+          </div>
+
+          <div class="conf-details-list">
+            <div class="detail-item">
+              <span class="detail-icon">📍</span>
+              <span>${latest?.place || 'TBD'}</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-icon">📅</span>
+              <span>${latest?.date || 'TBD'}</span>
+            </div>
+          </div>
+
+          <div class="card-timeline-area">
+            ${deadlineRowsHtml}
+          </div>
+
+          <div class="countdown-container" ${countdownAttr}>
+            <div class="countdown-timer">
+              <!-- Dynamically ticking -->
+              <div class="timer-segment">
+                <span class="timer-unit-val">-</span>
+                <span class="timer-unit-lbl">d</span>
+              </div>
+              <div class="timer-segment">
+                <span class="timer-unit-val">-</span>
+                <span class="timer-unit-lbl">h</span>
+              </div>
+              <div class="timer-segment">
+                <span class="timer-unit-val">-</span>
+                <span class="timer-unit-lbl">m</span>
+              </div>
+              <div class="timer-segment">
+                <span class="timer-unit-val">-</span>
+                <span class="timer-unit-lbl">s</span>
+              </div>
+            </div>
+            <div class="status-pulse"></div>
+          </div>
+        </article>
+      `;
+    }).join('');
+
+    // Add click listeners to cards and buttons
+    document.querySelectorAll('.conf-card').forEach(card => {
+      card.addEventListener('click', handleConfClick);
     });
-  });
+
+  } else {
+    gridEl.style.display = 'none';
+    tableWrapperEl.style.display = 'block';
+
+    // Render table rows
+    tableBodyEl.innerHTML = filtered.map(conf => {
+      const rankLabel = conf.rank.ccf === 'A' || conf.rank.core === 'A*' ? 'A*' : 'A';
+      const rankBadgeClass = rankLabel === 'A*' ? 'rank-badge-astar' : 'rank-badge-a';
+      const latest = conf.latestInstance;
+
+      // Nearest deadline string & local date-time
+      let deadlineStr = 'TBD';
+      let localDeadlineStr = 'TBD';
+      if (conf.nextDeadline && !conf.isTbd) {
+        const near = conf.parsedDeadlines.find(d => d.parsedDate && d.parsedDate.getTime() === conf.nextDeadline.getTime());
+        deadlineStr = near ? `${near.originalStr} (${near.timezone})` : conf.nextDeadline.toISOString();
+        localDeadlineStr = formatToLocal(conf.nextDeadline);
+      } else if (conf.latestInstance?.timeline?.[0]) {
+        const t = conf.latestInstance.timeline[0];
+        deadlineStr = typeof t === 'object' ? t.deadline : t;
+      }
+
+      // Next deadline data-attributes for ticking countdown in row
+      let countdownAttr = 'data-tbd="true"';
+      if (conf.nextDeadline && !conf.isTbd) {
+        const now = new Date();
+        if (conf.nextDeadline > now) {
+          countdownAttr = `data-deadline-utc="${conf.nextDeadline.toISOString()}"`;
+        } else {
+          countdownAttr = `data-deadline-utc="${conf.nextDeadline.toISOString()}" data-passed="true"`;
+        }
+      }
+
+      return `
+        <tr class="table-row-clickable" data-id="${conf.title}">
+          <td class="table-acronym-cell">
+            <span>${conf.title}</span>
+            <span class="badge ${rankBadgeClass}">${rankLabel}</span>
+            ${conf.isProjected ? '<span class="badge projected-badge" style="font-size:0.55rem; padding:0.15rem 0.3rem;">Est</span>' : ''}
+          </td>
+          <td>
+            <div class="table-desc-cell" title="${conf.description}">${conf.description}</div>
+          </td>
+          <td style="font-weight:600;">
+            C: ${conf.rank.core || '-'} / CCF: ${conf.rank.ccf || '-'}
+          </td>
+          <td>
+            <span class="badge category-badge">${conf.category}</span>
+          </td>
+          <td>📍 ${latest?.place || 'TBD'}</td>
+          <td>📅 ${latest?.date || 'TBD'}</td>
+          <td class="table-deadline-cell">
+            <span class="table-original-dl">${deadlineStr}</span>
+            <span class="table-local-dl">🏠 ${localDeadlineStr}</span>
+          </td>
+          <td>
+            <div class="countdown-container" ${countdownAttr} style="padding:0.4rem 0.6rem; margin:0; width:fit-content; font-size:0.75rem;">
+              <div class="countdown-timer" style="font-size:0.85rem; gap:0.25rem;">
+                <div class="timer-segment">
+                  <span class="timer-unit-val">-</span>
+                  <span class="timer-unit-lbl" style="font-size:0.5rem;">d</span>
+                </div>
+                <div class="timer-segment">
+                  <span class="timer-unit-val">-</span>
+                  <span class="timer-unit-lbl" style="font-size:0.5rem;">h</span>
+                </div>
+                <div class="timer-segment">
+                  <span class="timer-unit-val">-</span>
+                  <span class="timer-unit-lbl" style="font-size:0.5rem;">m</span>
+                </div>
+                <div class="timer-segment">
+                  <span class="timer-unit-val">-</span>
+                  <span class="timer-unit-lbl" style="font-size:0.5rem;">s</span>
+                </div>
+              </div>
+              <div class="status-pulse" style="right:0.35rem; width:6px; height:6px;"></div>
+            </div>
+          </td>
+          <td>
+            <div class="card-actions-row" style="border:none;">
+              ${conf.nextDeadline && !conf.isTbd && conf.nextDeadline > new Date() ? `
+                <button class="quick-action-btn" title="Add to Google Calendar" data-action="gcal" data-id="${conf.title}">📅</button>
+                <button class="quick-action-btn" title="Download .ics event" data-action="ics" data-id="${conf.title}">📥</button>
+              ` : ''}
+            </div>
+          </td>
+        </tr>
+      `;
+    }).join('');
+
+    // Add click listeners to table rows
+    document.querySelectorAll('.table-row-clickable').forEach(row => {
+      row.addEventListener('click', handleConfClick);
+    });
+  }
   
   // Tick immediately
   updateCountdowns();
 }
+
+// Click callback wrapper for grid cards and table rows
+function handleConfClick(e) {
+  // Ignore click if it's on quick actions
+  if (e.target.closest('.quick-action-btn')) {
+    const btn = e.target.closest('.quick-action-btn');
+    const action = btn.getAttribute('data-action');
+    const id = btn.getAttribute('data-id');
+    const conf = conferences.find(c => c.title === id);
+    
+    if (action === 'gcal') {
+      exportToGoogleCalendar(conf);
+    } else if (action === 'ics') {
+      exportToICS(conf);
+    }
+    return;
+  }
+  
+  const clickable = e.currentTarget;
+  const id = clickable.getAttribute('data-id');
+  openDetailModal(id);
+}
+
 
 // Search and filter logic
 function filterConferences() {
@@ -763,4 +887,33 @@ function initListeners() {
     activeFilters.category = btn.getAttribute('data-cat');
     renderDashboard();
   });
+
+  // View Switcher (Grid vs Table)
+  if (viewSwitcherEl) {
+    viewSwitcherEl.addEventListener('click', (e) => {
+      const btn = e.target.closest('.view-btn');
+      if (!btn) return;
+      
+      viewSwitcherEl.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      
+      currentView = btn.getAttribute('data-view');
+      renderDashboard();
+    });
+  }
+
+  // Table header sort triggers
+  document.querySelectorAll('#conferences-table th[data-sort-head]').forEach(th => {
+    th.addEventListener('click', () => {
+      const s = th.getAttribute('data-sort-head');
+      sortBy = s;
+      
+      if (sortEl) {
+        sortEl.value = s;
+      }
+      
+      renderDashboard();
+    });
+  });
 }
+
