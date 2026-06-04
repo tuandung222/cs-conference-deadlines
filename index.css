@@ -1,3 +1,8 @@
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 /* Design System Tokens */
 :root {
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
@@ -416,6 +421,7 @@ a:hover {
   transition: transform var(--transition-normal), border var(--transition-fast), box-shadow var(--transition-fast);
   backdrop-filter: blur(8px);
   cursor: pointer;
+  animation: fadeIn 0.3s ease-out forwards;
 }
 
 .conf-card::after {
@@ -656,10 +662,14 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 2.2rem; /* Fixed width so segments never resize */
 }
 
 .timer-unit-val {
   color: var(--text-primary);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
 }
 
 .timer-unit-lbl {
@@ -1070,6 +1080,7 @@ a:hover {
   background: var(--bg-surface);
   backdrop-filter: blur(8px);
   box-shadow: var(--shadow-md);
+  animation: fadeIn 0.3s ease-out forwards;
 }
 
 .conferences-table {
@@ -1190,7 +1201,7 @@ a:hover {
 }
 
 /* Light Theme Variable Overrides */
-body.light-theme {
+.light-theme {
   --bg-main: #f1f5f9;
   --bg-surface: rgba(255, 255, 255, 0.75);
   --bg-surface-hover: rgba(255, 255, 255, 0.96);
@@ -1206,7 +1217,7 @@ body.light-theme {
   --shadow-lg: 0 16px 40px rgba(15, 23, 42, 0.1);
 }
 
-body.light-theme .stars-bg {
+.light-theme .stars-bg {
   background-image: 
     radial-gradient(1.5px 1.5px at 15px 15px, rgba(15, 23, 42, 0.06) 100%, transparent),
     radial-gradient(2px 2px at 80px 120px, rgba(15, 23, 42, 0.08) 100%, transparent),
@@ -1215,167 +1226,167 @@ body.light-theme .stars-bg {
   opacity: 0.8;
 }
 
-body.light-theme .main-header {
+.light-theme .main-header {
   background: rgba(241, 245, 249, 0.85);
   border-bottom: 1px solid rgba(15, 23, 42, 0.08);
 }
 
-body.light-theme .logo-area h1 {
+.light-theme .logo-area h1 {
   background: linear-gradient(135deg, #0f172a, #2563eb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-body.light-theme .theme-toggle-btn {
+.light-theme .theme-toggle-btn {
   background: rgba(15, 23, 42, 0.04);
   border-color: rgba(15, 23, 42, 0.08);
 }
 
-body.light-theme .theme-toggle-btn:hover {
+.light-theme .theme-toggle-btn:hover {
   background: rgba(15, 23, 42, 0.08);
 }
 
-body.light-theme .timezone-badge {
+.light-theme .timezone-badge {
   background: rgba(59, 130, 246, 0.1);
   border-color: rgba(59, 130, 246, 0.2);
   color: #1d4ed8;
 }
 
-body.light-theme .metric-card {
+.light-theme .metric-card {
   box-shadow: var(--shadow-sm);
 }
 
-body.light-theme .metric-card.highlight {
+.light-theme .metric-card.highlight {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(59, 130, 246, 0.05));
   border-color: rgba(59, 130, 246, 0.2);
   box-shadow: 0 8px 30px rgba(59, 130, 246, 0.05);
 }
 
-body.light-theme .custom-select,
-body.light-theme .pills-container,
-body.light-theme .search-bar-wrapper input {
+.light-theme .custom-select,
+.light-theme .pills-container,
+.light-theme .search-bar-wrapper input {
   background: #ffffff;
 }
 
-body.light-theme .pill:hover {
+.light-theme .pill:hover {
   color: var(--text-primary);
 }
 
-body.light-theme .pill.active {
+.light-theme .pill.active {
   color: #ffffff;
 }
 
-body.light-theme .category-btn {
+.light-theme .category-btn {
   background: rgba(0, 0, 0, 0.02);
 }
 
-body.light-theme .category-btn:hover {
+.light-theme .category-btn:hover {
   background: rgba(0, 0, 0, 0.06);
 }
 
-body.light-theme .category-btn.active {
+.light-theme .category-btn.active {
   background: rgba(59, 130, 246, 0.1);
   color: #1d4ed8;
   border-color: #2563eb;
 }
 
-body.light-theme .section-header-meta {
+.light-theme .section-header-meta {
   border-bottom-color: rgba(0, 0, 0, 0.05);
 }
 
-body.light-theme .view-switcher {
+.light-theme .view-switcher {
   background: rgba(15, 23, 42, 0.03);
 }
 
-body.light-theme .view-btn:hover {
+.light-theme .view-btn:hover {
   color: var(--text-primary);
 }
 
-body.light-theme .view-btn.active {
+.light-theme .view-btn.active {
   color: #ffffff;
 }
 
-body.light-theme .timeline-deadline-row {
+.light-theme .timeline-deadline-row {
   background: rgba(15, 23, 42, 0.02);
   border-color: rgba(15, 23, 42, 0.04);
 }
 
-body.light-theme .timeline-row-date {
+.light-theme .timeline-row-date {
   color: var(--text-primary);
 }
 
-body.light-theme .timeline-row-comment {
+.light-theme .timeline-row-comment {
   color: #0284c7;
 }
 
-body.light-theme .countdown-container {
+.light-theme .countdown-container {
   background: rgba(15, 23, 42, 0.03);
 }
 
-body.light-theme .quick-action-btn {
+.light-theme .quick-action-btn {
   background: rgba(15, 23, 42, 0.03);
 }
 
-body.light-theme .quick-action-btn:hover {
+.light-theme .quick-action-btn:hover {
   background: rgba(15, 23, 42, 0.08);
   border-color: rgba(15, 23, 42, 0.15);
 }
 
-body.light-theme .badge.category-badge {
+.light-theme .badge.category-badge {
   background: rgba(15, 23, 42, 0.04);
   border-color: rgba(15, 23, 42, 0.04);
 }
 
-body.light-theme .conferences-table th {
+.light-theme .conferences-table th {
   background: rgba(15, 23, 42, 0.03);
 }
 
-body.light-theme .conferences-table th:hover {
+.light-theme .conferences-table th:hover {
   background: rgba(15, 23, 42, 0.05);
 }
 
-body.light-theme .table-row-clickable:hover {
+.light-theme .table-row-clickable:hover {
   background: rgba(15, 23, 42, 0.015);
 }
 
-body.light-theme .modal-content {
+.light-theme .modal-content {
   background: #ffffff;
   border-color: rgba(15, 23, 42, 0.1);
   box-shadow: 0 20px 50px rgba(15, 23, 42, 0.15);
 }
 
-body.light-theme .modal-close-btn {
+.light-theme .modal-close-btn {
   background: rgba(15, 23, 42, 0.03);
 }
 
-body.light-theme .modal-close-btn:hover {
+.light-theme .modal-close-btn:hover {
   background: rgba(15, 23, 42, 0.08);
 }
 
-body.light-theme .modal-meta-grid {
+.light-theme .modal-meta-grid {
   background: rgba(15, 23, 42, 0.02);
   border-color: rgba(15, 23, 42, 0.03);
 }
 
-body.light-theme .modal-timeline-item {
+.light-theme .modal-timeline-item {
   background: rgba(15, 23, 42, 0.02);
   border-color: rgba(15, 23, 42, 0.03);
 }
 
-body.light-theme .modal-tl-comment {
+.light-theme .modal-tl-comment {
   color: #0284c7;
 }
 
-body.light-theme .btn-secondary {
+.light-theme .btn-secondary {
   background: rgba(15, 23, 42, 0.03);
 }
 
-body.light-theme .btn-secondary:hover {
+.light-theme .btn-secondary:hover {
   background: rgba(15, 23, 42, 0.08);
   border-color: rgba(15, 23, 42, 0.15);
 }
 
-body.light-theme .main-footer {
+.light-theme .main-footer {
   background: rgba(241, 245, 249, 0.85);
   border-top-color: rgba(15, 23, 42, 0.08);
 }

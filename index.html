@@ -14,6 +14,13 @@
   
   <!-- Stylesheet -->
   <link rel="stylesheet" href="index.css">
+  
+  <script>
+    // Immediate theme check to prevent FOUC (Flash of Un-themed Content)
+    if ((localStorage.getItem('theme') || 'dark') === 'light') {
+      document.documentElement.classList.add('light-theme');
+    }
+  </script>
 </head>
 <body>
   

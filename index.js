@@ -47,18 +47,18 @@ window.addEventListener('DOMContentLoaded', async () => {
   const currentTheme = localStorage.getItem('theme') || 'dark';
 
   if (currentTheme === 'light') {
-    document.body.classList.add('light-theme');
+    document.documentElement.classList.add('light-theme');
     if (themeToggleBtn) themeToggleBtn.textContent = '☀️';
   } else {
-    document.body.classList.remove('light-theme');
+    document.documentElement.classList.remove('light-theme');
     if (themeToggleBtn) themeToggleBtn.textContent = '🌙';
   }
 
   if (themeToggleBtn) {
     themeToggleBtn.addEventListener('click', () => {
-      document.body.classList.toggle('light-theme');
+      document.documentElement.classList.toggle('light-theme');
       
-      const isLight = document.body.classList.contains('light-theme');
+      const isLight = document.documentElement.classList.contains('light-theme');
       localStorage.setItem('theme', isLight ? 'light' : 'dark');
       themeToggleBtn.textContent = isLight ? '☀️' : '🌙';
     });
