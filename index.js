@@ -585,14 +585,17 @@ function updateCountdowns() {
   document.querySelectorAll('.countdown-container').forEach(container => {
     const isTbd = container.hasAttribute('data-tbd');
     const timerEl = container.querySelector('.countdown-timer');
+    if (!timerEl) return;
     
     if (isTbd) {
-      container.classList.add('tbd');
-      timerEl.innerHTML = `
-        <div style="font-size:0.85rem; font-weight:600; color:var(--text-secondary)">
-          ⏳ DEADLINE TO BE ANNOUNCED
-        </div>
-      `;
+      if (!container.classList.contains('tbd')) {
+        container.classList.add('tbd');
+        timerEl.innerHTML = `
+          <div style="font-size:0.85rem; font-weight:600; color:var(--text-secondary)">
+            ⏳ DEADLINE TO BE ANNOUNCED
+          </div>
+        `;
+      }
       return;
     }
     
@@ -603,12 +606,14 @@ function updateCountdowns() {
     const diff = deadlineDate - now;
     
     if (diff <= 0) {
-      container.classList.add('passed');
-      timerEl.innerHTML = `
-        <div style="font-size:0.85rem; font-weight:600; color:var(--text-muted)">
-          PASSED (DEADLINE OVER)
-        </div>
-      `;
+      if (!container.classList.contains('passed')) {
+        container.classList.add('passed');
+        timerEl.innerHTML = `
+          <div style="font-size:0.85rem; font-weight:600; color:var(--text-muted)">
+            PASSED (DEADLINE OVER)
+          </div>
+        `;
+      }
       return;
     }
     
@@ -618,25 +623,43 @@ function updateCountdowns() {
     const mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
     const secs = Math.floor((diff % (1000 * 60)) / 1000);
     
-    // Update segments
-    timerEl.innerHTML = `
-      <div class="timer-segment">
-        <span class="timer-unit-val">${days.toString().padStart(2, '0')}</span>
-        <span class="timer-unit-lbl">d</span>
-      </div>
-      <div class="timer-segment">
-        <span class="timer-unit-val">${hours.toString().padStart(2, '0')}</span>
-        <span class="timer-unit-lbl">h</span>
-      </div>
-      <div class="timer-segment">
-        <span class="timer-unit-val">${mins.toString().padStart(2, '0')}</span>
-        <span class="timer-unit-lbl">m</span>
-      </div>
-      <div class="timer-segment">
-        <span class="timer-unit-val">${secs.toString().padStart(2, '0')}</span>
-        <span class="timer-unit-lbl">s</span>
-      </div>
-    `;
+    // Select segment text nodes
+    const dayValEl = container.querySelector('.timer-segment:nth-child(1) .timer-unit-val');
+    const hourValEl = container.querySelector('.timer-segment:nth-child(2) .timer-unit-val');
+    const minValEl = container.querySelector('.timer-segment:nth-child(3) .timer-unit-val');
+    const secValEl = container.querySelector('.timer-segment:nth-child(4) .timer-unit-val');
+    
+    if (dayValEl && hourValEl && minValEl && secValEl) {
+      const daysStr = days.toString().padStart(2, '0');
+      const hoursStr = hours.toString().padStart(2, '0');
+      const minsStr = mins.toString().padStart(2, '0');
+      const secsStr = secs.toString().padStart(2, '0');
+      
+      if (dayValEl.textContent !== daysStr) dayValEl.textContent = daysStr;
+      if (hourValEl.textContent !== hoursStr) hourValEl.textContent = hoursStr;
+      if (minValEl.textContent !== minsStr) minValEl.textContent = minsStr;
+      if (secValEl.textContent !== secsStr) secValEl.textContent = secsStr;
+    } else {
+      // Fallback: If segments don't exist yet, populate HTML structure
+      timerEl.innerHTML = `
+        <div class="timer-segment">
+          <span class="timer-unit-val">${days.toString().padStart(2, '0')}</span>
+          <span class="timer-unit-lbl">d</span>
+        </div>
+        <div class="timer-segment">
+          <span class="timer-unit-val">${hours.toString().padStart(2, '0')}</span>
+          <span class="timer-unit-lbl">h</span>
+        </div>
+        <div class="timer-segment">
+          <span class="timer-unit-val">${mins.toString().padStart(2, '0')}</span>
+          <span class="timer-unit-lbl">m</span>
+        </div>
+        <div class="timer-segment">
+          <span class="timer-unit-val">${secs.toString().padStart(2, '0')}</span>
+          <span class="timer-unit-lbl">s</span>
+        </div>
+      `;
+    }
   });
 }
 
